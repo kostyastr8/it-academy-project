@@ -1,0 +1,269 @@
+html {
+    font-size: 0.9375em; /* 1em=16px, 15px/16px */
+    line-height: 1.733;  /* 1em=15px , 26px/15px */
+}
+body {
+    min-width: 320px;
+}
+
+.listunstyle {
+  list-style: none;
+  padding-left:0;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    color: #666666;
+    margin: auto;
+}
+
+.clearfix:after {
+    content:'';
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.header-top {
+    background-color: #2b2b2b;
+}
+.header-phone a,
+.header-userlinks a {
+    text-decoration: none;
+    color: #666666;
+}
+.header-phone {
+    float:left;
+}
+
+.header-userlinks {
+    float:right;
+}
+
+.header {
+    background-color: #232323;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-between;
+    margin: auto;
+}
+
+
+.logo {
+    margin: 30px 0;
+}
+
+.header-search {
+    margin: 30px 0;
+    border: 1px solid #323232;
+    border-radius: 50px;
+    float: right;
+
+}
+
+.header-search input {
+    width: 230px;
+    height: 44px;
+    font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background: none;
+    border: none;
+    padding-left: 24px;
+    color: #ffffff;
+    outline:none;
+}
+
+.header-search button {
+    background: url("images/search.png") center center no-repeat;
+    font-size: 0;
+    width: 44px;
+    height: 44px;
+    border: transparent;
+    vertical-align: middle;
+    outline:none;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-nav ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    padding-bottom: 45px;
+}
+
+.header-nav ul li a {
+    font-size: 16px;
+    color: #ffffff;
+    padding-right: 50px;
+    text-decoration: none;
+}
+
+.pagebody {
+    height: 470px;
+    background: url("../images/image copy.jpg") center center no-repeat;
+    background-size: auto;
+}
+
+.slider{
+    display: flex;
+}
+.slider .slidetext {
+    text-align: left;
+    margin: 100px 40px;
+    color: black;
+}
+
+.year {
+    font-size: 40px;
+    line-height: 0.9;
+}
+.nc {
+    font-size: 80px;
+    line-height: 0.9;
+}
+.ncc {
+    font-size: 75px;
+    line-height: 0.9;
+}
+.sl {
+    font-size: 17px;
+    color: #666666;
+    line-height: 1.176;
+    vertical-align: top;
+}
+
+.buttonshopnow {
+    margin-top: 75px;
+}
+
+.shopnow {
+    font-size: 11px;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #be926f;
+    background-color: #be926f;
+    padding: 16px 22px;
+}
+
+.featured-products .title {
+    font-size: 1.1333em;
+    line-height: 1.2941em;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #232323;
+}
+
+.featured-product-list {
+    display:flex;
+    list-style: none;
+    padding: 0;
+}
+
+.featured-product {
+  border: 1px solid  #e6e6e6;
+  width: 292px;
+  height: 378px;
+}
+
+.featured-product + .featured-product {
+  border-left: none;
+}
+
+.product-title {
+  font-size: 17px;
+  color:#232323;
+  text-align: center;
+  padding-top: 34px;
+}
+
+.product-category{
+  font-size: 12px;
+  color: #999999;
+  text-align: center;
+  padding: 17px 0 11px;
+}
+
+.product-price {
+  padding: 17px 0 26px;
+}
+
+.product-action {
+  position: relative;
+  width: 210px;
+  height: 210px;
+  margin: 0 auto;
+  border: 1px solid #ffe0cb;
+
+}
+
+.product-action:before {
+  content: '';
+  position: absolute;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: rgba(255,255,255,0.8);
+}
+
+.product-action .additional-links {
+  display: none;
+  position: absolute;
+  top:0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto auto;
+  width: 130px;
+  height: 84px;
+}
+
+.product-action .additional-links .add-to-cart{
+  background-color: #be926f;
+  display: block;
+  padding: 8px 0;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.product-action .additional-links ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-action .additional-links ul a {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border:1px solid #be926f;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.product-action .additional-links .to-favorite{
+  background-image:url("images/to-favorite.png") ;
+}
+
+.product-action .additional-links .to-compare{
+  background-image:url("images/to-compare.png") ;
+}
+
+.product-action .additional-links .zoom {
+  background-image:url("images/to-zoom.png") ;
+}
+
+.featured-product:hover .product-action::before,
+.featured-product:hover .product-action .additional-links {
+  display: block;
+
+}
+
