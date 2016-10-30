@@ -106,7 +106,7 @@ button:hover {
 
 .pagebody {
     height: 470px;
-    background: url("../images/image copy.jpg") center center no-repeat;
+    background: url("../products/image copy.jpg") center center no-repeat;
     background-size: auto;
 }
 
@@ -167,7 +167,7 @@ button:hover {
 }
 
 .featured-product {
-  border: 1px solid  #e6e6e6;
+  border: 1px solid #e6e6e6;
   width: 292px;
   height: 378px;
 }
@@ -200,10 +200,9 @@ button:hover {
   height: 210px;
   margin: 0 auto;
   border: 1px solid #ffe0cb;
-
 }
 
-.product-action:before {
+.product-action::before {
   content: '';
   position: absolute;
   top:0;
@@ -225,7 +224,7 @@ button:hover {
   height: 84px;
 }
 
-.product-action .additional-links .add-to-cart{
+.product-action .additional-links .add-to-cart {
   background-color: #be926f;
   display: block;
   padding: 8px 0;
@@ -235,7 +234,7 @@ button:hover {
   margin-bottom: 20px;
 }
 
-.product-action .additional-links ul{
+.product-action .additional-links ul {
   display: flex;
   justify-content: space-between;
 }
@@ -249,21 +248,66 @@ button:hover {
   background-position: center center;
 }
 
-.product-action .additional-links .to-favorite{
-  background-image:url("images/to-favorite.png") ;
+.product-action .additional-links .to-favorite {
+  background-image:url("images/to-favorite.png");
 }
 
-.product-action .additional-links .to-compare{
-  background-image:url("images/to-compare.png") ;
+.product-action .additional-links .to-compare {
+  background-image:url("images/to-compare.png");
 }
 
 .product-action .additional-links .zoom {
-  background-image:url("images/to-zoom.png") ;
+  background-image:url("images/to-zoom.png");
 }
 
 .featured-product:hover .product-action::before,
 .featured-product:hover .product-action .additional-links {
   display: block;
-
 }
 
+
+
+.sugget {
+  display: flex;
+  flex-direction: row;
+  margin-right: 15px;
+}
+
+.suggets {
+  display: flex;
+  border: 1px solid #e6e6e6;
+  padding: 20px;
+}
+
+
+.sugget1 {
+  border: 1px solid #ffe0cb;
+}
+.textsugget1 {
+  padding: 0 0 0 20px;
+}
+
+.sugget2 {
+  border: 1px solid #ffe0cb;
+  margin-left:69px;
+}
+
+.textsugget2 {
+  padding: 0 87px 0 20px;
+}
+
+.hotsale {
+  display: flex;
+  border:1px solid #e6e6e6;
+  margin-left: 32px;
+}
+
+.hotsaleimg {
+  float: left;
+  padding: 25px 0 0 30px;
+}
+
+
+.hotsaletext {
+  padding: 25px 325px 25px 30px;
+}
