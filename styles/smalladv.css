@@ -1,15 +1,23 @@
 .smalladv {
   display:flex;
   justify-content: space-between;
-  margin: auto;
-  width: 100%;
 }
 
 .smalladv2, .hotsale {
   display: flex;
   flex-direction: row;
   border: 1px solid #e6e6e6;
-  padding: 20px;
+  padding: 20px 10px 20px 20px;
+  width:auto;
+}
+
+.smalladv2 {
+  margin-right: 15px;
+}
+
+
+.smalladv a {
+  text-decoration: none;
 }
 
 .smalladv2 img  {
@@ -26,13 +34,13 @@
 }
 
 .adv2 {
-  padding: 0 85px 0 70px;
+  padding: 0 80px 0 70px;
 }
 
 
 .hotsale {
   margin-left: 15px;
-  padding: 25px 330px 25px 30px;
+  padding: 25px 360px 25px 30px;
 }
 
 .hotsale img{

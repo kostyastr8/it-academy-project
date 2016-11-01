@@ -15,8 +15,13 @@
 
 .featured-product {
   border: 1px solid #e6e6e6;
-  width: 292px;
-  height: 378px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.featured-product img {
+  border:1px solid #ffe0cb;
 }
 
 .featured-product + .featured-product {
@@ -26,14 +31,12 @@
 .product-title {
   font-size: 17px;
   color:#232323;
-  text-align: center;
   padding-top: 34px;
 }
 
 .product-category{
   font-size: 12px;
   color: #999999;
-  text-align: center;
   padding: 17px 0 11px;
 }
 
@@ -42,21 +45,21 @@
 }
 
 .product-action {
-  position: relative;
   width: 210px;
   height: 210px;
-  margin: 0 auto;
   border: 1px solid #ffe0cb;
+  margin: 10px auto;
+  position: relative;
 }
 
-.product-action::before {
+.product-action:before {
   content: '';
   position: absolute;
   top:0;
   right: 0;
   bottom: 0;
   left: 0;
-  color: rgba(255,255,255,0.8);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .product-action .additional-links {
@@ -107,7 +110,7 @@
   background-image:url("images/to-zoom.png");
 }
 
-.featured-product:hover .product-action::before,
+.featured-product:hover .product-action:before,
 .featured-product:hover .product-action .additional-links {
   display: block;
 }
