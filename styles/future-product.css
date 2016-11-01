@@ -59,7 +59,9 @@
   right: 0;
   bottom: 0;
   left: 0;
-  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.8);
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
 .product-action .additional-links {
@@ -112,5 +114,6 @@
 
 .featured-product:hover .product-action:before,
 .featured-product:hover .product-action .additional-links {
+  opacity: 1;
   display: block;
 }
