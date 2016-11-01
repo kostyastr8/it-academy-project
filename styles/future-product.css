@@ -1,0 +1,113 @@
+.featured-products .title {
+  font-size: 1.1333em;
+  line-height: 1.2941em;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #232323;
+}
+
+.featured-product-list {
+  display:flex;
+  list-style: none;
+  padding: 0;
+}
+
+.featured-product {
+  border: 1px solid #e6e6e6;
+  width: 292px;
+  height: 378px;
+}
+
+.featured-product + .featured-product {
+  border-left: none;
+}
+
+.product-title {
+  font-size: 17px;
+  color:#232323;
+  text-align: center;
+  padding-top: 34px;
+}
+
+.product-category{
+  font-size: 12px;
+  color: #999999;
+  text-align: center;
+  padding: 17px 0 11px;
+}
+
+.product-price {
+  padding: 17px 0 26px;
+}
+
+.product-action {
+  position: relative;
+  width: 210px;
+  height: 210px;
+  margin: 0 auto;
+  border: 1px solid #ffe0cb;
+}
+
+.product-action::before {
+  content: '';
+  position: absolute;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: rgba(255,255,255,0.8);
+}
+
+.product-action .additional-links {
+  display: none;
+  position: absolute;
+  top:0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto auto;
+  width: 130px;
+  height: 84px;
+}
+
+.product-action .additional-links .add-to-cart {
+  background-color: #be926f;
+  display: block;
+  padding: 8px 0;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.product-action .additional-links ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-action .additional-links ul a {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border:1px solid #be926f;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.product-action .additional-links .to-favorite {
+  background-image:url("images/to-favorite.png");
+}
+
+.product-action .additional-links .to-compare {
+  background-image:url("images/to-compare.png");
+}
+
+.product-action .additional-links .zoom {
+  background-image:url("images/to-zoom.png");
+}
+
+.featured-product:hover .product-action::before,
+.featured-product:hover .product-action .additional-links {
+  display: block;
+}

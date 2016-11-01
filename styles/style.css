@@ -1,7 +1,10 @@
 @import url(structure.css);
+
 @import url(header-top.css);
 @import url(header.css);
-@import url(pagebody.css);
 
+@import url(pagebody.css);
+@import url(future-product.css);
+@import url(smalladv.css);
 
 

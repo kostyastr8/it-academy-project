@@ -1,0 +1,45 @@
+.smalladv {
+  display:flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 100%;
+}
+
+.smalladv2, .hotsale {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #e6e6e6;
+  padding: 20px;
+}
+
+.smalladv2 img  {
+  border: 1px solid #ffe0cb;
+}
+
+.adv1, .adv2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.smalladv2 .text1, .text2 {
+  margin-left: 20px;
+}
+
+.adv2 {
+  padding: 0 85px 0 70px;
+}
+
+
+.hotsale {
+  margin-left: 15px;
+  padding: 25px 330px 25px 30px;
+}
+
+.hotsale img{
+  padding-top: 1px;
+  padding-left: 19px;
+  margin-top: 12px;
+  float: left;
+}
+
+
