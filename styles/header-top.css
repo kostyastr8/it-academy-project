@@ -1,0 +1,23 @@
+.header-top {
+  background-color: #2b2b2b;
+}
+
+.clearfix:after {
+  content:'';
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+.header-phone a,
+.header-userlinks a {
+  text-decoration: none;
+  color: #666666;
+}
+.header-phone {
+  float:left;
+}
+
+.header-userlinks {
+  float:right;
+}
