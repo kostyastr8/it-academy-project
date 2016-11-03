@@ -20,6 +20,11 @@
   text-align: center;
 }
 
+.featured-product a {
+  text-decoration: none;
+}
+
+
 .featured-product img {
   border:1px solid #ffe0cb;
 }
@@ -125,3 +130,19 @@
 .featured-product:hover .product-title {
   color: #be926f;
 }
+
+.product-action .sale {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  font-size: 12px;
+  color: #ffffff;
+  background: #be926f;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  top: -20px;
+  right: -16px;
+}
+
+
