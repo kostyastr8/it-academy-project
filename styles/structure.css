@@ -1,6 +1,7 @@
 html {
   font-size: 0.9375em; /* 1em=16px, 15px/16px */
   line-height: 1.733;  /* 1em=15px , 26px/15px */
+  font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 body {
   min-width: 320px;

@@ -59,6 +59,7 @@
   color: #ffffff;
   padding-right: 50px;
   text-decoration: none;
+  transition: color 0.3s;
 }
 
 .header-nav a.active,
@@ -74,6 +75,9 @@
   margin: 0 12px 0 auto;
   position: relative;
   font-size: 12px;
+}
+.header-cart a {
+  opacity: 0;
 }
 
 .header-cart .count {

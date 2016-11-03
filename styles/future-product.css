@@ -32,6 +32,7 @@
   font-size: 17px;
   color:#232323;
   padding-top: 34px;
+  transition: color 0.3s;
 }
 
 .product-category{
@@ -41,6 +42,9 @@
 }
 
 .product-price {
+  color: #be926f;
+  font-size: 20px;
+  text-align: center;
   padding: 17px 0 26px;
 }
 
@@ -116,4 +120,8 @@
 .featured-product:hover .product-action .additional-links {
   opacity: 1;
   display: block;
+}
+
+.featured-product:hover .product-title {
+  color: #be926f;
 }
