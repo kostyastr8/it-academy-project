@@ -1,13 +1,37 @@
 .slider2 {
-  border:1px solid #e6e6e6;
+  border-top:1px solid #e6e6e6;
   margin-top: 60px;
+  font-weight: bold;
 }
 
 .slider2 h2 {
   font-size: 18px;
   color: #232323;
-  font-weight: bold;
   text-align: center;
 }
 
+.leftarrow {
+  color: #999999;
+  font-size: 13px;
+  float: left;
+}
 
+.slider2 .leftarrow:before {
+  content: url("images/_ left.png");
+  float: left;
+}
+
+
+
+
+/*.slider2 h2:before:before {
+  background:  url("images/_ right.png")  no-repeat;
+}
+
+.slider2 h2:after {
+  content: "NEXT";
+  color: #999999;
+  font-size: 13px;
+  margin-left: 31px;
+  float: right;
+}
