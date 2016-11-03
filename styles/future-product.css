@@ -32,7 +32,7 @@
   font-size: 17px;
   color:#232323;
   padding-top: 34px;
-  transition: color 0.3s;
+  transition: color 0.5s;
 }
 
 .product-category{
@@ -65,7 +65,7 @@
   left: 0;
   background-color: rgba(255, 255, 255, 0.8);
   opacity: 0;
-  transition: opacity 0.3s;
+  transition: opacity 0.5s;
 }
 
 .product-action .additional-links {

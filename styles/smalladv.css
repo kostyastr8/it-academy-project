@@ -4,6 +4,7 @@
   margin-top: 30px;
 }
 
+
 .smalladv2, .hotsale {
   display: flex;
   flex-direction: row;
@@ -51,4 +52,7 @@
   float: left;
 }
 
+.smalladv:hover .product-title {
+  color: #be926f;
+}
 

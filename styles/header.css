@@ -59,7 +59,7 @@
   color: #ffffff;
   padding-right: 50px;
   text-decoration: none;
-  transition: color 0.3s;
+  transition: color 0.5s;
 }
 
 .header-nav a.active,
