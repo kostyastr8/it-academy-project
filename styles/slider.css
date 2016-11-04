@@ -1,4 +1,4 @@
-.slider2 {
+/*.slider2 {
   border-top:1px solid #e6e6e6;
   margin-top: 60px;
   font-weight: bold;
@@ -10,28 +10,72 @@
   text-align: center;
 }
 
+.slider2 a{
+  text-decoration: none;
+}
 .leftarrow {
+  width: 30%;
+}
+.leftarrow span {
   color: #999999;
   font-size: 13px;
-  float: left;
+  text-align: center;
+  margin-left: 25px;
 }
 
-.slider2 .leftarrow:before {
+.leftarrow::before {
   content: url("images/_ left.png");
-  float: left;
 }
 
-
-
-
-/*.slider2 h2:before:before {
-  background:  url("images/_ right.png")  no-repeat;
+.rightarrow{
+  width: 30%;
 }
-
-.slider2 h2:after {
-  content: "NEXT";
+.rightarrow span {
   color: #999999;
   font-size: 13px;
-  margin-left: 31px;
-  float: right;
+  text-align: center;
+  margin-right: 25px;
+}
+
+.rightarrow::after {
+  content: url("images/_ right.png");
+}
+.clear {
+  clear: both;
+}*/
+
+.slidercontent {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.sliderelement {
+  border-bottom:1px solid #e6e6e6;
+  transition: border-color 0.5s;
+}
+
+.slidersimage {
+  border:1px solid #ffe0cb;
+}
+.slidercontent .product-title {
+  font-size: 18px;
+  color: #333333;
+  margin-top: 30px;
+}
+.date {
+  font-size: 14px;
+  color: #999999;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.date::before {
+  content: url("images/clock.png");
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+
+.sliderelement:hover {
+  border-color: #ffe0cb;
 }
