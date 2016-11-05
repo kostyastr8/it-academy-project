@@ -7,12 +7,14 @@
   display: flex;
   justify-content: space-between;
 }
-.sliderhead .prew a,
-.sliderhead .next a {
+
+.sliderhead a {
+  text-decoration: none;
+}
+.sliderhead .prew,
+.sliderhead .next {
   display: flex;
   flex-direction: row;
-  text-decoration: none;
-  color: #999999;
 }
 
 .sliderhead .prew, .next {

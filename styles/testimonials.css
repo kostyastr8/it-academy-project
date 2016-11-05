@@ -1,6 +1,22 @@
 .testimonials {
   background-color: #232323;
   text-align: center;
-  padding: 60px auto;
-  color: #ffffff;
+  padding: 60px auto;  color: #ffffff;
+}
+
+.testimonials h2 {
+  font-size: 40px;
+  padding-top: 60px;
+}
+.line {
+  margin: 29px 0 19px 0;
+}
+
+.romb {
+  width: 40px;
+  height:40px;
+  border:1px solid #be926f;
+  background-color: #ffffff;
+  margin: 25px auto;
+  transform: rotate(45deg);
 }
