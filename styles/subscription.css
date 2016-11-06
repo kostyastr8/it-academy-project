@@ -1,19 +1,18 @@
 .newsletter {
   float: left;
-  margin: auto 0;
+  margin: 55px 0 0;
   text-align: left;
 }
 
 .newsletter h3 {
   font-size: 18px;
   color: #333333;
-  padding-top: 55px;
+  margin: 0 0;
 }
 
 .newsletter span {
   font-size: 15px;
   color: #666666;
-  padding-top: 13px;
 }
 
 
@@ -29,20 +28,26 @@ input {
   width: 390px;
   height: 50px;
   border:1px solid #cccccc;
+  padding-left: 15px;
+  box-sizing: border-box;
 }
 
 button {
   width: 200px;
   height: 50px;
-  border:1px solid #cccccc;
+  border:1px solid #be926f;
   margin-right: 16px;
-  background-color: #f8f8f8;
+  background:  #cccccc url("images/Forma.png") no-repeat;
+  background-position: 8% center;
+  box-sizing: border-box;
 }
 
-.buttonimg {
-  background-image: url("images/Forma.png");
-}
 
+.buttontext {
+  font-size: 18px;
+  color:#333333;
+  padding-left: 20px;
+}
 .clear {
   clear: both;
 }
