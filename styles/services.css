@@ -1,0 +1,24 @@
+.services {
+  background-color: #f8f8f8;
+  font-size: 18px;
+  color: #333333;
+  font-weight: 500;
+  border-top: 1px solid #e8e8e8;
+  margin-top: 66px;
+}
+
+.allserviceslist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+.allserviceslist ul{
+  padding: 0;
+
+
+}
+
+.FREESHIPPING {
+  background:   url("images/freeshipping.png") no-repeat center center;
+}
