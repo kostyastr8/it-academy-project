@@ -1,0 +1,42 @@
+footer {
+  border-top: 1px solid #e6e6e6;
+}
+
+.f {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #999999;
+  padding: 31px 10px 33px 0;
+}
+
+.links a {
+  text-decoration: none;
+  margin-left: 24px;
+  color: #999999;
+
+}
+
+.social {
+  display: flex;
+}
+
+.social a {
+  margin-right: 20px;
+}
+.twitter {
+  width: 18px;
+  height: 18px;
+  background: url("images/twitter.png") center center no-repeat;
+}
+
+.google {
+  width: 18px;
+  height: 18px;
+  background: url("images/google+.png")center center no-repeat;
+}
+.facebook {
+  width: 18px;
+  height: 18px;
+  background: url("images/facebook.png")center center no-repeat;
+}
