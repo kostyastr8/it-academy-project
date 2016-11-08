@@ -1,0 +1,43 @@
+.contacts {
+
+  margin: 46px 129px  0 83px;
+  font-size: 24px;
+  color: #232323;
+  text-align: center;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+.tel {
+  width: 36px;
+  height: 56px;
+  background: url("images/iPhone.png")center center no-repeat;
+  margin: auto;
+}
+
+.loc {
+  width: 36px;
+  height: 56px;
+  background: url("images/location.png")center center no-repeat;
+  margin: auto;
+}
+
+.email {
+  width: 56px;
+  height: 56px;
+  background: url("images/Mail.png")center center no-repeat;
+  margin: auto;
+}
+
+.adress a{
+  font-size: 14px;
+  color: #666666;
+  text-decoration: none;
+}
+
+.emailad a {
+  font-size: 14px;
+  color: #be926f;
+  text-decoration: none;
+}
