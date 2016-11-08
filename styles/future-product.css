@@ -1,8 +1,8 @@
 .featured-products .title {
   font-size: 1.1333em;
   line-height: 1.2941em;
-  margin-top: 60px;
-  margin-bottom: 30px;
+  margin-top: 70px;
+  margin-bottom: 25px;
   font-weight: bold;
   color: #232323;
 }
@@ -36,21 +36,21 @@
 .product-title {
   font-size: 17px;
   color:#232323;
-  padding-top: 34px;
+  padding: 14px 0 0;
   transition: color 0.5s;
 }
 
 .product-category{
   font-size: 12px;
   color: #999999;
-  padding: 17px 0 11px;
+  padding: 0 0 5px;
 }
 
 .product-price {
   color: #be926f;
   font-size: 20px;
   text-align: center;
-  padding: 17px 0 26px;
+  padding: 0 0 9px;
 }
 
 .product-action {
