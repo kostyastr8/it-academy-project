@@ -2,14 +2,16 @@
   height: 470px;
   background: url("../products/image copy.jpg") center center no-repeat;
   background-size: auto;
+  margin-top: 27px;
 }
 
 .slider{
   display: flex;
+
 }
 .slider .slidetext {
   text-align: left;
-  margin: 100px 40px;
+  margin: 100px 44px;
   color: black;
 }
 
@@ -19,16 +21,18 @@
 }
 .nc {
   font-size: 80px;
-  line-height: 0.9;
+  font-weight: bold;
+  line-height: 0.74;
 }
 .ncc {
   font-size: 75px;
-  line-height: 0.9;
+  font-weight: bold;
+  line-height: 0.97;
 }
 .sl {
   font-size: 17px;
   color: #666666;
-  line-height: 1.176;
+  line-height: 1.65;
   vertical-align: top;
 }
 

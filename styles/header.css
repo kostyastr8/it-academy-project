@@ -10,7 +10,7 @@
 }
 
 .logo {
-  margin: 29px 0;
+  margin: 29px 0 29px;
 }
 
 .header-search {
@@ -23,6 +23,7 @@
 .header-search input {
   width: 220px;
   height: 44px;
+  font-size: 13px;
   font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
   background: none;
   border: none;
@@ -33,7 +34,7 @@
 
 .header-search button {
   background: url("images/search.png") center center no-repeat;
-  font-size: 0;
+  font-size: 0px;
   width: 44px;
   height: 44px;
   border: transparent;
@@ -50,9 +51,10 @@
   display: flex;
   list-style: none;
   padding-left: 0;
-  padding-bottom: 45px;
+  padding-bottom: 30px;
+  margin: 0;
+  line-height: 0.9;
 }
-
 .header-nav ul li a {
   font-size: 16px;
   color: #ffffff;
@@ -71,7 +73,7 @@
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAWCAYAAAAmaHdCAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDE0IDc5LjE1Njc5NywgMjAxNC8wOC8yMC0wOTo1MzowMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkU0M0Q1MkFBOEJFNDExRTZBRjY4ODZCODcwMkI0NkZGIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkU0M0Q1MkFCOEJFNDExRTZBRjY4ODZCODcwMkI0NkZGIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RTQzRDUyQTg4QkU0MTFFNkFGNjg4NkI4NzAyQjQ2RkYiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6RTQzRDUyQTk4QkU0MTFFNkFGNjg4NkI4NzAyQjQ2RkYiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6ii0ulAAAAU0lEQVR42mL8//8/AxrAEMACGJE5TAxUACzE2obPlVRxCdW8gysg8QXwf5oGLCMZ+v/jcsl/Al78T7OAJSZ94JUbPOlk1JBhbwgLiWUr7VwCEGAAkbAOLZkpNl4AAAAASUVORK5CYII=);
   width: 17px;
   height: 22px;
-  margin: 0 12px 0 auto;
+  margin: 6px  12px 0 auto;
   position: relative;
   font-size: 12px;
 }
