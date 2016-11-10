@@ -1,34 +1,35 @@
 .contacts {
-
-  margin: 46px 129px  0 83px;
-  font-size: 24px;
+  margin: 46px 75px  0 83px;
+  font-size: 20px;
   color: #232323;
   text-align: center;
 }
+
+.tel, .loc, .email {
+  margin: 0 auto 10px;
+  width: 56px;
+  height: 56px;
+}
+
 .contact {
   display: flex;
   justify-content: space-between;
+  margin-left: 80px;
+  margin-right: 129px;
   padding-bottom: 59px;
 }
 .tel {
-  width: 36px;
-  height: 56px;
   background: url("images/iPhone.png")center center no-repeat;
-  margin: auto;
+
 }
 
 .loc {
-  width: 36px;
-  height: 56px;
   background: url("images/location.png")center center no-repeat;
-  margin: auto;
+
 }
 
 .email {
-  width: 56px;
-  height: 56px;
   background: url("images/Mail.png")center center no-repeat;
-  margin: auto;
 }
 
 .adress a{
