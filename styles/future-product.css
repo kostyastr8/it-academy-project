@@ -1,4 +1,4 @@
-.featured-products .title {
+.featured-products .title, .best {
   font-size: 1.1333em;
   line-height: 1.2941em;
   margin-top: 70px;
@@ -36,7 +36,7 @@
 .product-title {
   font-size: 17px;
   color:#232323;
-  padding: 14px 0 0;
+  padding: 19px 0 0;
   transition: color 0.5s;
 }
 
@@ -50,14 +50,14 @@
   color: #be926f;
   font-size: 20px;
   text-align: center;
-  padding: 0 0 9px;
+  padding: 0 0 14px;
 }
 
 .product-action {
   width: 210px;
   height: 210px;
   border: 1px solid #ffe0cb;
-  margin: 10px auto;
+  margin: 6px auto;
   position: relative;
 }
 
@@ -139,10 +139,14 @@
   color: #ffffff;
   background: #be926f;
   border-radius: 50%;
-  line-height: 40px;
+  line-height: 42px;
   text-align: center;
-  top: -20px;
-  right: -16px;
+  top: -16px;
+  right: -20px;
 }
 
+
+.featured-products .best {
+  margin-top: 55px;
+}
 

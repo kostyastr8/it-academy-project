@@ -20,7 +20,7 @@
 .sliderhead .prew, .next {
   color: #999999;
   font-size: 13px;
-  padding: 30px 0 40px;
+  padding: 30px 0 25px;
 }
 
 .prew .arrows {
@@ -35,8 +35,10 @@
   font-size: 18px;
   color: #232323;
   text-align: center;
+  line-height: 1;
+  letter-spacing: 3px;
   font-weight: bold;
-  padding: 30px 0 40px;
+  padding: 30px 0 30px;
   margin: 0;
 }
 
@@ -87,23 +89,36 @@
 
 .slidersimage {
   border:1px solid #ffe0cb;
+  margin: 0 0 22px 1px;
 }
+
 .slidercontent .product-title {
   font-size: 18px;
   color: #333333;
-  margin-top: 30px;
+  line-height: 1.5;
+  padding: 10px 0 8px;
+  transition: color 0.5s;
 }
+
 .date {
   font-size: 14px;
   color: #999999;
-  margin-top: 30px;
-  margin-bottom: 15px;
+  margin-top: 7px;
 }
 
 .date::before {
   content: url("images/clock.png");
   background-repeat: no-repeat;
   margin-right: 10px;
+}
+
+.slidercontent .product-title a{
+  text-decoration: none;
+  color: #333333;
+}
+
+.slidercontent .product-title a:hover{
+  color: #ffe0cb;
 }
 
 .sliderelement:hover {
