@@ -104,12 +104,13 @@
   font-size: 14px;
   color: #999999;
   margin-top: 7px;
+  padding-bottom: 12px;
 }
 
 .date::before {
   content: url("images/clock.png");
   background-repeat: no-repeat;
-  margin-right: 10px;
+  margin-right: 3px;
 }
 
 .slidercontent .product-title a{

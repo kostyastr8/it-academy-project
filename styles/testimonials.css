@@ -2,14 +2,17 @@
   background-color: #292929;
   text-align: center;
   padding: 60px auto;  color: #ffffff;
+  margin-top: 57px;
 }
 
 .testimonials h2 {
   font-size: 40px;
-  padding-top: 60px;
+  padding-top: 41px;
+  margin: 0;
+  line-height: 1.54;
 }
 .line {
-  margin: 29px 0 19px 0;
+  margin: 0;
 }
 
 .testimonials span {
@@ -22,11 +25,11 @@
 }
 
 .romb {
-  width: 40px;
-  height:40px;
+  width: 50px;
+  height: 50px;
   border:1px solid #be926f;
   background-color: #ffffff;
-  margin: 25px auto;
+  margin: 37px auto 15px;
   transform: rotate(45deg);
 }
 
