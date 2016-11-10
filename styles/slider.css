@@ -31,6 +31,10 @@
   margin-left: 19px;
 }
 
+.arrowsactive {
+  opacity:0;
+}
+
 .sliderhead h2 {
   font-size: 18px;
   color: #232323;
@@ -41,40 +45,6 @@
   padding: 30px 0 30px;
   margin: 0;
 }
-
-/*.clear {
-  clear: both;
-}*/
-
-
-
-/*.leftarrow span {
-  color: #999999;
-  font-size: 13px;
-  text-align: center;
-  margin-left: 25px;
-}
-
-.leftarrow::before {
-  content: url("images/_ left.png");
-}
-
-.rightarrow{
-  width: 30%;
-}
-.rightarrow span {
-  color: #999999;
-  font-size: 13px;
-  text-align: center;
-  margin-right: 25px;
-}
-
-.rightarrow::after {
-  content: url("images/_ right.png");
-}
-.clear {
-  clear: both;
-}*/
 
 .slidercontent {
   display: flex;
@@ -87,10 +57,11 @@
   transition: border-color 0.5s;
 }
 
-.slidersimage {
-  border:1px solid #ffe0cb;
+.slidersimage img{
+  border: 1px solid be926f;
   margin: 0 0 22px 1px;
 }
+
 
 .slidercontent .product-title {
   font-size: 18px;
@@ -101,6 +72,7 @@
 }
 
 .date {
+  position: relative;
   font-size: 14px;
   color: #999999;
   margin-top: 7px;
@@ -110,6 +82,10 @@
 .date::before {
   content: url("images/clock.png");
   background-repeat: no-repeat;
+  position: absolute;
+  top: 2px;
+  left:60px;
+
   margin-right: 3px;
 }
 
@@ -119,9 +95,24 @@
 }
 
 .slidercontent .product-title a:hover{
-  color: #ffe0cb;
+  color: #be926f;
 }
 
 .sliderelement:hover {
-  border-color: #ffe0cb;
+  border-color: #be926f;
 }
+
+
+.sliderhead .next :hover {
+  color: #be926f;
+}
+
+.sliderhead .prew :hover {
+  color: #be926f;
+}
+
+
+
+
+
+

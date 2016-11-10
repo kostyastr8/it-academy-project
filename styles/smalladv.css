@@ -17,11 +17,6 @@
   padding: 20px 27px 20px 20px;
 }
 
-
-.smalladv a {
-  text-decoration: none;
-}
-
 .smalladv2 img  {
   border: 1px solid #ffe0cb;
 }
@@ -40,8 +35,6 @@
 }
 
 
-
-
 .hotsale {
   margin-left: 15px;
   padding: 20px 20px 20px 30px;
@@ -53,8 +46,10 @@
   margin-top: 12px;
   float: left;
 }
-
-.smalladv:hover .product-title {
-  color: #be926f;
+.smalladv a{
+  text-decoration: none;
 }
 
+.smalladv .product-title:hover{
+  color: #ffe0cb;
+}
