@@ -105,8 +105,7 @@
   width: 25px;
   height: 25px;
   border:1px solid #be926f;
-  background-repeat: no-repeat;
-  background-position: center center;
+  background: no-repeat center center;
 }
 
 .product-action .additional-links .to-favorite {

@@ -11,8 +11,12 @@
   margin: 0;
   line-height: 1.54;
 }
+
 .line {
-  margin: 0;
+  background-color: #be926f;
+  height: 2px;
+  width: 20px;
+  margin: auto;
 }
 
 .testimonials span {

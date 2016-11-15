@@ -10,14 +10,13 @@
 
 .sliderhead a {
   text-decoration: none;
+  position: relative;
 }
+
 .sliderhead .prew,
 .sliderhead .next {
   display: flex;
   flex-direction: row;
-}
-
-.sliderhead .prew, .next {
   color: #999999;
   font-size: 13px;
   padding: 30px 0 25px;
@@ -31,8 +30,16 @@
   margin-left: 19px;
 }
 
-.arrowsactive {
-  opacity:0;
+.sliderhead a .nextactive,
+.sliderhead a .prewactive {
+  display: none;
+  position: absolute;
+  top:0;
+  right:0;
+  bottom: 0;
+  left: 0;
+  margin-left: 19px;
+  margin-right: 19px;
 }
 
 .sliderhead h2 {
@@ -58,7 +65,7 @@
 }
 
 .slidersimage img{
-  border: 1px solid be926f;
+  border: 1px solid #be926f;
   margin: 0 0 22px 1px;
 }
 
@@ -85,7 +92,6 @@
   position: absolute;
   top: 2px;
   left:60px;
-
   margin-right: 3px;
 }
 
@@ -101,18 +107,5 @@
 .sliderelement:hover {
   border-color: #be926f;
 }
-
-
-.sliderhead .next :hover {
-  color: #be926f;
-}
-
-.sliderhead .prew :hover {
-  color: #be926f;
-}
-
-
-
-
 
 

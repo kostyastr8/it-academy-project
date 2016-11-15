@@ -1,0 +1,63 @@
+.leftside {
+  float: left;
+}
+
+.bform {
+  margin-top: 27px;
+  border: 1px solid #be926f;
+  height: 44px;
+}
+
+.bform input{
+  padding: 0 0 0 30px;
+  width: 224px;
+  height: 44px;
+  margin: 0;
+  border: none;
+  vertical-align: top;
+}
+
+.bbut {
+  width: 44px;
+  height: 44px;
+  background: #be926f url("images/search.png") center no-repeat;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.categories  h2 {
+  font-size: 16px;
+  font-weight: lighter;
+  color: #ffffff;
+  background-color: #be926f;
+  margin: 30px 0 0;
+  padding: 10px 0 10px 30px;
+}
+
+.bycat {
+  font-size: 14px;
+  color: #333333;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+.bycat li {
+  border: 1px solid #f3ece6;
+  padding: 10px;
+}
+
+.bycat li + li {
+  border-top: none;
+}
+
+.bycat li:before {
+  content: url("images/folder.png");
+  padding: 10px 15px 0 20px;
+}
+
+.arch li:before {
+  content: url("images/calendar.png");
+  padding: 20px 15px 0 20px;
+}
+

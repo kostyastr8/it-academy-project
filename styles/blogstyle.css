@@ -1,0 +1,14 @@
+
+@import url(bloggreyline.css);
+@import url(blogform.css);
+
+
+
+.poster {
+  float: right;
+  background-size: 348px 870px;
+  margin-top: 27px;
+}
+
+@import url(blogtext.css);
+@import url(categories.css);
