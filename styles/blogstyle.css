@@ -1,14 +1,17 @@
 
 @import url(bloggreyline.css);
 @import url(blogform.css);
+@import url(blogtext.css);
 
-
-
-.poster {
-  float: right;
-  background-size: 348px 870px;
-  margin-top: 27px;
+.page {
+  background-color: #f7f7f7;
+  padding: 30px 0 auto 0;
 }
 
-@import url(blogtext.css);
-@import url(categories.css);
+.page a {
+  text-decoration: none;
+}
+
+.page .testimonials {
+
+}

@@ -34,7 +34,7 @@
 
 .header-search button {
   background: url("images/search.png") center center no-repeat;
-  font-size: 0px;
+  font-size: 0;
   width: 44px;
   height: 44px;
   border: transparent;
@@ -86,6 +86,7 @@
   width: 18px;
   height: 18px;
   background: #be926f;
+  color: #ffffff;
   border-radius: 50%;
   line-height: 18px;
   text-align: center;
