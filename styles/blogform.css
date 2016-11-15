@@ -37,27 +37,62 @@
 
 .bycat {
   font-size: 14px;
-  color: #333333;
   list-style: none;
   margin: 0;
   padding-left: 0;
 }
-.bycat li {
+
+
+.bycat li a {
+  display: block;
+  text-decoration: none;
+  color: #333333;
   border: 1px solid #f3ece6;
   padding: 10px;
 }
 
-.bycat li + li {
+.bycat li a + li a {
   border-top: none;
 }
 
-.bycat li:before {
+.bycat li a:before {
   content: url("images/folder.png");
   padding: 10px 15px 0 20px;
 }
 
-.arch li:before {
+.arch li a:before {
   content: url("images/calendar.png");
   padding: 20px 15px 0 20px;
 }
+.popposts {
+  padding: 30px 0 0 0;
 
+}
+.popshoes {
+  margin-bottom: 30px;
+}
+.popshoes img{
+  float: left;
+  border: 1px solid #e6e6e6;
+}
+
+.popposts a {
+ text-decoration: none;
+  color: #333333;
+}
+
+.posttext {
+  font-size: 15px;
+  margin-left: 13px;
+}
+
+.posttext {
+  font-size: 15px;
+  margin-left: 13px;
+}
+
+.postdate {
+  font-size: 15px;
+  margin-left: 13px;
+  color: #be926f;
+}
