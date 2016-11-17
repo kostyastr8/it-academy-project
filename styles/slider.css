@@ -64,6 +64,11 @@
   transition: border-color 0.5s;
 }
 
+.sliderelement:after {
+  content: '';
+  padding-bottom: 57px;
+}
+
 .slidersimage img{
   border: 1px solid #be926f;
   margin: 0 0 22px 1px;

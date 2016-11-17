@@ -1,27 +1,29 @@
 .testimonials {
   background-color: #292929;
   text-align: center;
-  padding: 60px auto;  color: #ffffff;
-  margin-top: 57px;
+  color: #ffffff;
+  margin-top: 62px;
 }
 
 .testimonials h2 {
   font-size: 40px;
-  padding-top: 41px;
+  padding: 45px 0 12px;
   margin: 0;
   line-height: 1.54;
 }
 
 .line {
   background-color: #be926f;
+  border: none;
   height: 2px;
   width: 20px;
-  margin: auto;
+  margin: 0 auto 20px;
 }
 
 .testimonials span {
   font-size: 17px;
   color: #cccccc;
+  line-height: 1.46;
 }
 
 .figure {
@@ -29,11 +31,12 @@
 }
 
 .romb {
-  width: 50px;
-  height: 50px;
+  width: 52px;
+  height: 52px;
   border:1px solid #be926f;
   background-color: #ffffff;
   margin: 37px auto 15px;
   transform: rotate(45deg);
 }
+
 
