@@ -46,28 +46,30 @@ p {
   text-align: justify;
 }
 
-.textfooter {
-  height: 1px;
-  border-top: 1px solid #e4e4e4;
-}
-
 .tags {
   float: left;
-}
-
-.share {
-  float: right;
+  padding-top: 10px;
+  color: #333333;
 }
 
 .shareicons {
   list-style: none;
   padding: 0;
+  margin: 0;
+}
+.sharesocial {
+ float: right;
 }
 
 .shareicons li {
   display: inline;
+  margin: 0 5px 0;
 }
 
-
+.textfotter {
+  border-top :1px solid #e4e4e4;
+  background-color: #ffffff;
+  padding: 20px 30px 20px 15px;
+}
 
 

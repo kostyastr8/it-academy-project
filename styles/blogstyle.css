@@ -1,14 +1,14 @@
 
 @import url(bloggreyline.css);
-@import url(blogform.css);
-@import url(blogtext.css);
+@import url(leftside.css);
+@import url(rightside.css);
 
-.page {
+.backgrpage {
   background-color: #f7f7f7;
-  padding: 30px 0 auto 0;
+  padding-bottom: 30px;
 }
 
-.page a {
+.container a {
   text-decoration: none;
 }
 
