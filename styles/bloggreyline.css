@@ -26,3 +26,18 @@
 .mainhome a:hover {
   color: #666666;
 }
+
+@media (max-width: 695px) {
+  .blog {
+    float: none;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+  }
+  .mainhome {
+    float: none;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+  }
+}

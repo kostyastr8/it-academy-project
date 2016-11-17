@@ -93,3 +93,39 @@
   top: -6px;
   right: -8px;
 }
+
+
+@media (max-width: 695px) {
+  .head {
+    flex-direction: column;
+  }
+
+  .logo {
+    margin: 29px auto 29px;
+  }
+
+  .header-search {
+    display: flex;
+    width: 220px;
+    margin: 0 auto;
+  }
+
+  .header-search input {
+    width: calc(100% - 44px);
+  }
+
+  .header-nav ul{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-nav ul li{
+    margin: 10px 0;
+  }
+
+  .header-cart {
+    align-self: flex-end;
+  }
+}
+
+
