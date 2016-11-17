@@ -30,7 +30,6 @@ input {
   height: 50px;
   border:1px solid #cccccc;
   padding-left: 15px;
-  /* box-sizing: content-box; */
 }
 
 button {
@@ -38,8 +37,7 @@ button {
   height: 50px;
   border:1px solid #be926f;
   margin: 0 0 0 10px;
-  background:  #cccccc url("images/Forma.png") no-repeat;
-  background-position: 8% center;
+  background: #cccccc url("images/Forma.png") no-repeat 8% center;
   box-sizing: border-box;
 }
 
@@ -54,8 +52,43 @@ button {
   text-decoration: none;
 }
 
-
 .clear {
   clear: both;
+}
+@media (max-width: 1169px) {
+  .subscribe input {
+    width: auto;
+    vertical-align: top;
+  }
+  .subscribe button {
+    width: auto;
+  }
+}
+
+@media (max-width: 910px) {
+  .newsletter {
+    float: none;
+    text-align: center;
+  }
+
+  .subscribe {
+    float: none;
+    text-align: center;
+  }
+  .subscribe input {
+    vertical-align: top;
+    height: 44px;
+  }
+  .subscribe button {
+    width: 44px;
+    height: 44px;
+    box-sizing: content-box;
+  }
+
+  .buttontext {
+    display: none;
+    background: #cccccc url("images/Forma.png") no-repeat 8% center;
+    text-align: center;
+  }
 }
 

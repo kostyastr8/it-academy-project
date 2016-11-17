@@ -9,12 +9,11 @@
   display: flex;
   flex-direction: row;
   border: 1px solid #e6e6e6;
-  width: 570px;
 }
 
 .smalladv2 {
   margin-right: 15px;
-  padding: 20px 27px 20px 20px;
+  padding: 20px 71px 20px 20px;
 }
 
 .smalladv2 img  {
@@ -37,7 +36,7 @@
 
 .hotsale {
   margin-left: 15px;
-  padding: 20px 20px 20px 30px;
+  padding: 20px 336px 20px 30px;
 }
 
 .hotsale img{
@@ -54,4 +53,14 @@
   color: #ffe0cb;
 }
 
+@media (max-width: 1110px) {
+  .smalladv,
+  .hotsale {
+    flex-direction: column;
+    margin: 30px auto 20px;
+  }
 
+  .smalladv2 {
+    margin: auto;
+  }
+}
