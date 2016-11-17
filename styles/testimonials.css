@@ -39,3 +39,10 @@
 }
 
 
+
+@media (max-width: 695px) {
+  .testimonials span {
+    text-align: justify;
+  }
+
+}
