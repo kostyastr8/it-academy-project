@@ -65,7 +65,7 @@ button {
   }
 }
 
-@media (max-width: 910px) {
+@media (max-width: 960px) {
   .newsletter {
     float: none;
     text-align: center;

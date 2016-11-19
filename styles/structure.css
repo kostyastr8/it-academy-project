@@ -5,6 +5,7 @@ html {
 }
 body {
   min-width: 320px;
+  margin: auto;
 }
 
 .listunstyle {
@@ -17,4 +18,11 @@ body {
   padding: 0 15px;
   color: #666666;
   margin: auto;
+}
+@media (max-width: 960px) {
+
+  .container {
+    max-width: 740px;
+    margin: auto;
+  }
 }

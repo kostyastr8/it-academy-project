@@ -37,6 +37,7 @@
 .hotsale {
   margin-left: 15px;
   padding: 20px 336px 20px 30px;
+  text-wrap: none;
 }
 
 .hotsale img{
@@ -53,14 +54,22 @@
   color: #ffe0cb;
 }
 
-@media (max-width: 1110px) {
+@media (max-width: 960px) {
   .smalladv,
   .hotsale {
     flex-direction: column;
-    margin: 30px auto 20px;
+    margin: 20px  auto 0;
+    max-width: 633px;
+    min-width: 320px;
   }
+  .hotsale {
+    padding: auto;
+    padding-right: 281px;
 
+  }
   .smalladv2 {
-    margin: auto;
+    margin: auto 0;
+    padding: auto;
+
   }
 }

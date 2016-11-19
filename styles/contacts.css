@@ -49,3 +49,36 @@
   color: #be926f;
   text-decoration: none;
 }
+
+@media (max-width: 960px) {
+  .contact {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 0 10px 40px;
+  }
+
+  .tel, .loc, .email {
+    margin: 0 auto 10px;
+    width: 60px;
+    padding: 10px;
+  }
+
+  .numb a,
+  .adress a,
+  .emailad a {
+    font-size: 10px;
+  }
+}
+
+
+@media (max-width: 790px) {
+  .contact {
+    flex-direction: column;
+
+  }
+
+  .serviceblock {
+    text-align: left;
+  }
+}

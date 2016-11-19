@@ -114,4 +114,22 @@
   border-color: #be926f;
 }
 
+@media (max-width: 960px) {
+  .slidercontent {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
+  .sliderelement {
+    margin: 30px auto 0;
+  }
+
+  .slider2 {
+    width: auto;
+    margin: 60px 50px 0;
+  }
+
+
+
+}

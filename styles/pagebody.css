@@ -48,7 +48,13 @@
   padding: 13px 21px;
 }
 
+@media (max-width: 960px) {
+  .slider {
+    width: 663px;
+    margin: auto;
+  }
 
+}
 
 
 

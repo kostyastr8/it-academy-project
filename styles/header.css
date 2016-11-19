@@ -95,7 +95,7 @@
 }
 
 
-@media (max-width: 695px) {
+@media (max-width: 940px) {
   .head {
     flex-direction: column;
   }

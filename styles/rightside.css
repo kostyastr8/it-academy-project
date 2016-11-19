@@ -9,7 +9,8 @@
 }
 
 .poster {
-  width: 870px;
+  background-image: url("../products/imagecopy.jpg");
+  width: auto;
   height: 348px;
   margin-top: 27px;
 }
