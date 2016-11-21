@@ -15,9 +15,9 @@
 
 .featured-product {
   border: 1px solid #e6e6e6;
-  width: 100%;
   height: auto;
   text-align: center;
+  flex-basis: 100%;
 }
 
 .featured-product a {
@@ -159,13 +159,13 @@
   .featured-product-list {
     flex-wrap: wrap;
     flex-direction: row;
-    padding: 0 45px 0;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .featured-product {
-    width: 267px;
+    /*width: 267px;*/
     margin-top: 30px;
+    flex-basis: 45%;
     /* margin-right: 100px;*/
   }
 

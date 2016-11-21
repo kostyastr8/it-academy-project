@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
+
 </head>
 <body>
 <div class="header-top">
@@ -29,8 +30,29 @@
     </div>
     <div class="container menu">
         <nav class="header-nav">
+
             <ul>
-            <li><a href="#" class="active">Home</a></li>
+              <li>
+                <a href="#">
+                  <div id="nav-icon3">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  </div>
+                </a>
+                <ul class="dropdown">
+                  <li><a href="#">Living room</a></li>
+                  <li><a href="#">Office</a></li>
+                  <li><a href="#">Bedroom</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </li>
+            <li>
+              <a href="#" class="active">Home</a>
+
+            </li>
             <li><a href="#">Living room</a></li>
             <li><a href="#">Office</a></li>
             <li><a href="#">Bedroom</a></li>
@@ -403,7 +425,11 @@
       <a href="#"><div class="facebook"></div></a>
     </div>
   </div>
+
 </footer>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/dropmenu.js"></script>
+<script src="js/gambuger.js"></script>
 </body>
 
 </html>

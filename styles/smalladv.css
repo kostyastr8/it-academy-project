@@ -12,8 +12,9 @@
 }
 
 .smalladv2 {
+  flex-basis: 50%;
   margin-right: 15px;
-  padding: 20px 71px 20px 20px;
+  padding: 20px 0 20px 20px;
 }
 
 .smalladv2 img  {
@@ -35,8 +36,9 @@
 
 
 .hotsale {
+  flex-basis: 50%;
   margin-left: 15px;
-  padding: 20px 336px 20px 30px;
+  padding: 20px 0 20px 20px;
   text-wrap: none;
 }
 
