@@ -82,13 +82,14 @@ button {
   .subscribe button {
     width: 44px;
     height: 44px;
+    background: #cccccc url("images/Forma.png") center center no-repeat;
     box-sizing: content-box;
+    padding: 1px 0;
   }
 
   .buttontext {
     display: none;
-    background: #cccccc url("images/Forma.png") no-repeat 8% center;
-    text-align: center;
+
   }
 }
 
