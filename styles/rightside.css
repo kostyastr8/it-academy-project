@@ -1,6 +1,6 @@
 .rightside {
   float: right;
-  width: 870px;
+  width: auto;
 }
 
 .rightside a{
@@ -8,12 +8,17 @@
   color: #666666;
 }
 
-.poster {
-  background-image: url("../products/imagecopy.jpg");
+.poster,
+.posterafter {
+  background: url("../products/imagecopy.jpg") center center no-repeat;
   width: auto;
   height: 348px;
   margin-top: 27px;
 }
+.posterafter {
+  display:none;
+}
+
 
 .blogtext {
   background-color: #ffffff;
@@ -71,6 +76,52 @@ p {
   border-top :1px solid #e4e4e4;
   background-color: #ffffff;
   padding: 20px 30px 20px 15px;
+}
+
+
+@media (max-width: 1366px) {
+  .rightside {
+    float: right;
+    width: calc(100% - 325px);
+  }
+
+}
+
+@media (max-width: 960px) {
+  .poster {
+    display: none;
+  }
+
+  .blogtext {
+    margin-top: 25px;
+    padding-top: 10px;
+  }
+  h1 {
+    margin-top: 0;
+  }
+
+  .textfotter {
+    padding-top: 5px;
+  }
+
+  .tags, .shareicons{
+    float: none;
+    text-align: center;
+    margin-top: 5px;
+  }
+  .sharesocial {
+    float: none;
+}
+  .shareicons li:first-child {
+    display: block;
+    margin-bottom: 10px;
+    padding-top: 0;
+  }
+
+  .posterafter {
+    display: block;
+    margin-bottom: 27px;
+  }
 }
 
 

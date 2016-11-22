@@ -61,12 +61,13 @@
   .hotsale {
     flex-direction: column;
     margin: 20px  auto 0;
-    max-width: 633px;
+    max-width: 667px;
     min-width: 320px;
   }
   .hotsale {
     padding: auto;
     padding-right: 281px;
+    margin: 20px 0;
 
   }
   .smalladv2 {
