@@ -76,13 +76,10 @@
   left: 50%;
 }
 
-/* Пункт меню при наведении курсора: */
 .header-nav li a:hover {
   text-decoration: none;
-
 }
 
-/* Подменю, скрываемое по умолчанию: */
 .header-nav ul li .dropdown {
   display: none;
   border: 1px solid #ffffff;
@@ -95,8 +92,6 @@
 
 .dropdown li {
   margin: 10px 0 10px;
-  opacity: 0.5;
-  transition: opacity 0.3s;
 }
 
 li.dropdown li a {
@@ -107,11 +102,8 @@ li.dropdown li a {
   position: relative;
 }
 
- .header-nav ul li .dropdown:hover {
+ .header-nav ul li .dropdown li:hover {
    color: #be926f;
  }
 
- .header-nav ul li .dropdown li:hover {
-   opacity: 1;
- }
 
