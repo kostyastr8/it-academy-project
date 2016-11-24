@@ -1,14 +1,16 @@
-.pagebody {
+.slider-container {
   height: 470px;
-  background: url("../products/imagecopy.jpg") center center no-repeat;
-  background-size: auto;
+
 }
 
-.slider{
+.slide{
   display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
 
 }
-.slider .slidetext {
+.slide .slidetext {
   text-align: left;
   margin: 100px 44px;
   color: black;
@@ -48,13 +50,13 @@
   padding: 13px 21px;
 }
 
-@media (max-width: 960px) {
-  .slider {
+/*@media (max-width: 960px) {
+  .slider-container {
     width: 663px;
     margin: auto;
   }
 
-}
+}*/
 
 
 

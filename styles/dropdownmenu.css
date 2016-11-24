@@ -82,7 +82,9 @@
 
 .header-nav ul li .dropdown {
   display: none;
+  position: absolute;
   border: 1px solid #ffffff;
+  background-color: #2b2b2b;
   margin: 0;
   padding: 0;
   color: #ffffff;

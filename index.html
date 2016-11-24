@@ -5,6 +5,8 @@
     <title>Main page</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="js/slick-1.6.0/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="js/slick-1.6.0/slick/slick-theme.css"/>
     <link rel="stylesheet" href="styles/style.css">
 
 </head>
@@ -66,15 +68,27 @@
     </div>
    </header>
 
-<div class="container pagebody">
-    <div class="slider">
+<div class="container">
+  <div class="slider-container">
+    <div class="slide"  style="background-image: url(products/imagecopy.jpg)">
         <div class="slidetext"> <span class="year">2015</span><span class="nc">NEW<br></span>
             <span class="ncc">Collections<br></span>
-         <span class="sl">New colors and creative prints!<br></span>
+            <span class="sl">New colors and creative prints!<br></span>
             <div class="buttonshopnow">
-            <a href="#" class="shopnow">SHOP NOW</a></div>
+              <a href="#" class="shopnow">SHOP NOW</a>
+            </div>
         </div>
     </div>
+    <div class="slide" style="background-image: url(products/imagecopy.jpg)">
+      <div class="slidetext"> <span class="year">2015</span><span class="nc">NEW<br></span>
+        <span class="ncc">Collections 2<br></span>
+        <span class="sl">New colors and creative prints!<br></span>
+        <div class="buttonshopnow">
+                <a href="#" class="shopnow">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 
@@ -324,6 +338,12 @@
           <div class="product-title"><a href="#">This version of About<br>A Chair</a></div>
           <div class="date">10 July at 09:37</div>
         </div>
+        <div class="sliderelement">
+          <div class="slidersimage"><a href="#"><img src="products/clothing-1668268_1920.jpg" width="270" height="210" alt="zip"></a></div>
+          <div class="product-category"><span style="font-size: 12px; color: #cd7b87;">BEAUTY</span> </div>
+          <div class="product-title"><a href="#">This version of About<br>A Chair</a></div>
+          <div class="date">10 July at 09:37</div>
+        </div>
       </div>
   </div>
 
@@ -430,6 +450,10 @@
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/dropmenu.js"></script>
 <script src="js/gambuger.js"></script>
+<script type="text/javascript" src="js/slick-1.6.0/slick/slick.min.js"></script>
+<script type="text/javascript" src="js/slick.js"></script>
+
+
 </body>
 
 </html>
