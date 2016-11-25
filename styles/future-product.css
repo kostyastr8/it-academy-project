@@ -149,6 +149,14 @@
   margin-top: 55px;
 }
 
+.rightside .featured-product-list {
+  margin: 0 auto;
+}
+
+.rightside .featured-product + .rightside .featured-product {
+  border-bottom: none;
+}
+
 @media (max-width: 960px) {
 
   .featured-products .title, .best {

@@ -1,14 +1,9 @@
-
 @import url(bloggreyline.css);
 @import url(leftside.css);
 @import url(rightside.css);
+@import url(shoplistnavigtion.css);
 
 .backgrpage {
   background-color: #f7f7f7;
   padding-bottom: 30px;
 }
-
-.container a {
-  text-decoration: none;
-}
-
