@@ -8,8 +8,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
-
 }
+
 .slide .slidetext {
   text-align: left;
   margin: 100px 44px;
@@ -25,6 +25,13 @@
   font-weight: bold;
   line-height: 0.74;
 }
+
+/*.nc.effect {
+  opacity:  0;
+  transform: translateY(-200px);
+  transition
+}*/
+
 .ncc {
   font-size: 75px;
   line-height: 0.97;

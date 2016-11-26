@@ -19,15 +19,15 @@
 }
 
 
-.sortandpage ul {
+.sortandpage .sortnav div {
   display: flex;
   justify-content: space-around;
   text-align: right;
   margin-right: 7px;
 
 }
-.sortandpage ul li {
-  list-style: none;
+.sortandpage .sortnav {
+  display: inline;
   font-size: 16px;
   color: #666666;
   width: 30px;

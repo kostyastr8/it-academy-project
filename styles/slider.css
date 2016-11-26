@@ -10,11 +10,11 @@
 
 .sliderhead a {
   text-decoration: none;
-  position: relative;
 }
 
 .sliderhead .prew,
 .sliderhead .next {
+  position: relative;
   display: flex;
   flex-direction: row;
   color: #999999;
@@ -102,9 +102,8 @@
 .date::before {
   content: url("images/clock.png");
   background-repeat: no-repeat;
-  position: absolute;
+  position: relative;
   top: 2px;
-  left:60px;
   margin-right: 3px;
 }
 
@@ -121,6 +120,7 @@
   border-color: #be926f;
 }
 
+
 @media (max-width: 960px) {
   .slidercontent {
     flex-direction: row;
@@ -136,7 +136,5 @@
     width: auto;
     margin: 60px 50px 0;
   }
-
-
 
 }
