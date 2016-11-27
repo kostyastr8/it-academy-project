@@ -116,8 +116,7 @@
   }
 
   .header-nav ul{
-    display: flex;
-    flex-direction: column;
+    display: none;
   }
 
   .header-nav ul li{
@@ -127,8 +126,12 @@
   .header-cart {
     align-self: flex-end;
   }
-
+  .header-nav ul li .dropdown{
+    display: flex;
+    flex-direction: column;
+  }
 }
+
 
 
 

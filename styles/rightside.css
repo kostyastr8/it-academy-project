@@ -1,6 +1,6 @@
 .rightside {
   float: right;
-  width: auto;
+  width: 870px;
 }
 
 .rightside a{
@@ -16,7 +16,7 @@
   margin-top: 27px;
 }
 .posterafter {
-  display:none;
+  display: none;
 }
 
 
