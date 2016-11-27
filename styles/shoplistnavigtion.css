@@ -1,8 +1,30 @@
 .sortandpage,.sortandview {
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
+  margin: 30px 0;
   background-color: #ffffff;
+}
+
+.viev {
+  display: flex;
+  margin: 10px 5px 0;
+}
+
+.cellblock, .listblock {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #be926f;
+}
+
+
+.cellblock {
+  background: #be926f url("images/view.png") center center no-repeat;
+  margin: auto;
+}
+
+.listblock {
+  background: url("images/list.png") center center no-repeat;
+  margin: auto;
 }
 
 .sortby {
@@ -42,13 +64,18 @@ select {
 .sortandpage ul li a {
   text-decoration: none;
 }
+.sortandpage ul li:hover,
+.sortandpage ul li.active {
+  background-color: #be926f;
+  border: 1px solid  #be926f;
+}
+
 .sortandpage ul li a:hover,
 .sortandpage ul li a.active {
   color:#ffffff;
 }
 
-
-.arrowtriangle{
+.arrowtriangle {
   border-radius: 10px;
   padding: 20px;
   position: relative;
