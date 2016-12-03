@@ -37,7 +37,8 @@
   padding: 10px 0 10px 30px;
 }
 
-.bycat {
+.bycat,
+.bycatshop {
   font-size: 14px;
   list-style: none;
   margin: 0;
@@ -45,11 +46,13 @@
 }
 
 
-.bycat li a {
+.bycat li a,
+.bycatshop li a {
   display: block;
   color: #333333;
   border: 1px solid #f3ece6;
   padding: 10px;
+  text-decoration:none;
 }
 
 .bycat li a + li a {
@@ -65,6 +68,13 @@
   content: url("images/calendar.png");
   padding: 20px 15px 0 20px;
 }
+
+
+.bycatshop li a:before {
+  content: url("images/Filing-Cabinet-25x25.png");
+  padding: 20px 15px 0 20px;
+}
+
 .popposts {
   padding: 30px 0 0 0;
 
