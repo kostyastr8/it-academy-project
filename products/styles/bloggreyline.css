@@ -4,6 +4,13 @@
   padding: 55px 10px;
 }
 
+
+.product-name {
+  color: #232323;
+  font-size: 30px;
+  margin-left: 50px;
+}
+
 .blog {
   float: left;
   font-size: 30px;

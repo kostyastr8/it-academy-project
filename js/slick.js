@@ -43,3 +43,44 @@ $(document).ready(function(){
     ]
   });
 });
+
+
+$(document).ready(function(){
+  var $productpreview = $('.productslider');
+
+
+ /* $(".sliderhead .prew").on('click', function(e) {
+    e.preventDefault();
+    $slider2.slick('slickPrev');
+  });
+
+  $(".sliderhead .next").on('click', function(e) {
+    e.preventDefault();
+    $slider2.slick('slickNext');
+  });*/
+
+  $productpreview.slick({
+    infinite: true,
+    vertical:true,
+    verticalSwiping: true,
+    slidesToShow: 3,
+    arrows:false,
+    autoplay:false,
+    responsive:[
+      {
+        breakpoint:1200,
+        settings:{
+          slidesToShow:3,
+          dots:true
+        }
+      },
+      {
+        breakpoint:960,
+        settings:{
+          slidesToShow:2,
+          dots:true
+        }
+      }
+    ]
+  });
+});

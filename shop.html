@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Shop</title>
-  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="products/styles/normalize.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="js/slick-1.6.0/slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="js/slick-1.6.0/slick/slick-theme.css"/>
-  <link rel="stylesheet" href="styles/style.css">
-  <link rel="stylesheet" href="styles/shopstyle.css">
+  <link rel="stylesheet" href="products/styles/style.css">
+  <link rel="stylesheet" href="products/styles/shopstyle.css">
 </head>
 <body>
 
@@ -26,7 +26,7 @@
 
   <header class="header">
     <div class="container head">
-      <img class="logo" src="styles/images/Logo.png" alt="logo"/>
+      <img class="logo" src="products/styles/images/Logo.png" alt="logo"/>
       <form action="#" class="header-search">
         <input type="search" placeholder="Search Products&hellip;"/>
         <button>Search</button>
@@ -36,7 +36,7 @@
       <nav class="header-nav">
 
         <ul>
-          <li style="display:none">
+          <li>
             <a href="#">
               <div id="nav-icon3">
                 <span></span>
@@ -46,17 +46,18 @@
               </div>
             </a>
             <ul class="dropdown">
-              <li><a href="#">Living room</a></li>
-              <li><a href="#">Office</a></li>
-              <li><a href="#">Bedroom</a></li>
-              <li><a href="blog.html">Blog</a></li>
-              <li><a href="#">Contact</a></li>
+              <li>
+                <a href="shop.html">Shop</a>
+              </li>
+              <li>
+                <a href="productgrid.html">Detail Product</a>
+              </li>
+              <li>
+                <a href="blog.html">Blog</a>
+              </li>
             </ul>
           </li>
           <li>
-            <a href="#" class="active">Home</a>
-
-          </li>
           <li><a href="#">Living room</a></li>
           <li><a href="#">Office</a></li>
           <li><a href="#">Bedroom</a></li>
@@ -75,8 +76,8 @@
   <div class="page-content">
     <span class="blog">SHOP</span>
     <div class="mainhome">
-      <a href="#">HOME</a>
-      <a href="#">/ PRODUCTS</a>
+      <a href="index.html">HOME</a>
+      <a href="#" class="active">/ PRODUCTS</a>
     </div>
   </div>
 
@@ -520,6 +521,11 @@
     </div>
 </footer>
 
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/dropmenu.js"></script>
+<script src="js/gambuger.js"></script>
+<script type="text/javascript" src="js/slick-1.6.0/slick/slick.min.js"></script>
+<script type="text/javascript" src="js/slick.js"></script>
 
 
 
