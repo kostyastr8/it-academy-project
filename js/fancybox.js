@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $(".fancybox-button").fancybox({
+  $(".largepreview a").fancybox({
     prevEffect		: 'none',
     nextEffect		: 'none',
     closeBtn		: false,

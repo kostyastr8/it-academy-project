@@ -1,0 +1,32 @@
+.tabs {
+  margin-top: 60px;
+}
+.tabbs ul li{
+  display: block;
+  width: 1170px;
+}
+
+.ui-tabs {
+  padding: 0;
+}
+
+.ui-tabs .ui-tabs-nav  {
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+#desccription, #reviews, #addinformation{
+  border: 1px solid #be926f;
+  padding: 0;
+}
+
+.ui-state-active a, .ui-state-active .ui-tabs-anchor {
+  margin-bottom: -3px ;
+  border-bottom: 3px solid #ffffff;
+  border-top: 3px solid #be926f;
+
+}
+
+.ui-widget-header {
+  border: none;
+}

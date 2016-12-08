@@ -3,13 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Product grid</title>
-  <link rel="stylesheet" href="products/styles/normalize.css">
+  <link rel="stylesheet" href="styles/normalize.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="js/slick-1.6.0/slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="js/slick-1.6.0/slick/slick-theme.css"/>
-  <link rel="stylesheet" href="products/styles/style.css">
-  <link rel="stylesheet" href="products/styles/blogstyle.css">
-  <link rel="stylesheet" href="products/styles/productpreview.css">
+  <link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css"/>
+  <link rel="stylesheet" type="text/css" href="js/jquery-ui-1.12.1.custom/jquery-ui.css"/>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/blogstyle.css">
+  <link rel="stylesheet" href="styles/prodcutgrid.css">
 </head>
 
 <body>
@@ -27,7 +29,7 @@
 
   <header class="header">
     <div class="container head">
-      <img class="logo" src="products/styles/images/Logo.png" alt="logo"/>
+      <img class="logo" src="styles/images/Logo.png" alt="logo"/>
       <form action="#" class="header-search">
         <input type="search" placeholder="Search Products&hellip;"/>
         <button>Search</button>
@@ -62,20 +64,145 @@
 
 
   <div class="productpreview">
+
     <div class="productslider">
-      <div class="sproductslide"><a href="#"><img src="products/chair (1).jpg" width="138" height="180"  alt="chair"></a></div>
-      <div class="sproductslide"><a href="#"><img src="products/chair (2).jpg" width="138" height="180"  alt="chair"></a></div>
-      <div class="sproductslide"><a href="#"><img src="products/chair (3).jpg" width="138" height="180"  alt="chair"></a></div>
-      <div class="sproductslide"><a href="#"><img src="products/chair (2).jpg" width="138" height="180"  alt="chair"></a></div>
-      <div class="sproductslide"><a href="#"><img src="products/chair (3).jpg" width="138" height="180"  alt="chair"></a></div>
+      <div class="productslide">
+        <a href="#" rel="fancybox">
+          <img src="products/chair (1).jpg"  alt="chair">
+        </a>
+      </div>
+      <div class="productslide">
+        <a href="#" rel="fancybox">
+          <img src="products/chair (2).jpg"  alt="chair">
+        </a>
+      </div>
+      <div class="productslide">
+        <a href="#" rel="fancybox">
+          <img src="products/chair (3).jpg"  alt="chair">
+        </a>
+      </div>
+      <div class="productslide">
+        <a href="#" rel="fancybox">
+          <img src="products/chair (2).jpg"  alt="chair">
+        </a>
+      </div>
+      <div class="productslide">
+        <a href="#" rel="fancybox">
+          <img src="products/chair (3).jpg"   alt="chair">
+        </a>
+      </div>
     </div>
+
     <div class="largepreview">
-      <img src="products/chair (1).jpg" width="495" height="591"  alt="chair">
+      <a href="#">
+      <img src="products/chair (1).jpg"   alt="chair">
+      </a>
     </div>
     <div class="clear"></div>
   </div>
+
+    <div class="aboutproduct">
+      <span>h ifhkfhk</span>
+    </div>
+
   <div class="clear"></div>
+
+
+  <div class="tabs">
+
+    <ul>
+      <li><a href="#desccription">Desccription</a>
+
+      </li>
+      <li><a href="#reviews">Reviews (23)</a></li>
+      <li><a href="#addinformation">Additional Information</a></li>
+    </ul>
+
+    <div id="desccription">
+      <h4>Product Description</h4>
+      <span>
+      Proident adipisicing laborum beef ribs tri-tip dolore meatball tempor rump flank prosciutto elit do.
+      Duis tenderloin culpa excepteur. Fugiat irure est cupim dolor, ut nulla id andouille chicken spare ribs eiusmod brisket biltong.
+      Eiusmod minim tail cupim labore ad filet mignon, andouille esse enim. Sausage salami dolor ex adipisicing consequat.
+      Ground round nostrud ut fatback voluptate consequat in minim drumstick culpa dolore.
+      Ea beef prosciutto in sirloin fatback enim velit consectetur in pork belly pancetta culpa shank.
+      <br>
+      Shank quis in duis, id officia nulla. Pancetta sunt filet mignon porchetta doner turkey occaecat. Meatball corned beef elit ut fugiat.
+      Hamburger biltong tail beef in cupim proident turducken picanha. Sausage chicken incididunt ad occaecat porchetta pancetta corned beef ham hock laborum nisi ullamco pork loin kielbasa aliqua.
+      <br>
+      In jerky minim chicken duis ground round nostrud pork belly occaecat pastrami commodo adipisicing tongue doner short loin.
+      Officia est do, filet mignon shank pork loin anim esse quis kevin corned beef enim. Magna sint sirloin ham hock cupidatat laboris.
+      Boudin spare ribs kevin meatloaf id short loin swine flank brisket aute.
+      Reprehenderit turkey qui, boudin swine voluptate ipsum fugiat.
+      <br>
+      Salami in ball tip pig eiusmod occaecat pork chop, consequat excepteur incididunt.
+      Ground round picanha ut boudin exercitation jerky meatball strip steak ipsum labore spare ribs turducken ribeye ut aliquip.
+      Id ipsum esse nisi ball tip chuck adipisicing sint culpa t-bone brisket bresaola mollit.
+      Enim eu kevin, tail in nisi nulla sirloin adipisicing veniam dolore.
+      </span>
+    </div>
+
+    <div id="reviews">
+      <h4>Review</h4>
+      <span>
+      Proident adipisicing laborum beef ribs tri-tip dolore meatball tempor rump flank prosciutto elit do.
+      Duis tenderloin culpa excepteur. Fugiat irure est cupim dolor, ut nulla id andouille chicken spare ribs eiusmod brisket biltong.
+      Eiusmod minim tail cupim labore ad filet mignon, andouille esse enim. Sausage salami dolor ex adipisicing consequat.
+      Ground round nostrud ut fatback voluptate consequat in minim drumstick culpa dolore.
+      Ea beef prosciutto in sirloin fatback enim velit consectetur in pork belly pancetta culpa shank.
+      <br>
+      Shank quis in duis, id officia nulla. Pancetta sunt filet mignon porchetta doner turkey occaecat. Meatball corned beef elit ut fugiat.
+      Hamburger biltong tail beef in cupim proident turducken picanha. Sausage chicken incididunt ad occaecat porchetta pancetta corned beef ham hock laborum nisi ullamco pork loin kielbasa aliqua.
+      <br>
+      In jerky minim chicken duis ground round nostrud pork belly occaecat pastrami commodo adipisicing tongue doner short loin.
+      Officia est do, filet mignon shank pork loin anim esse quis kevin corned beef enim. Magna sint sirloin ham hock cupidatat laboris.
+      Boudin spare ribs kevin meatloaf id short loin swine flank brisket aute.
+      Reprehenderit turkey qui, boudin swine voluptate ipsum fugiat.
+      <br>
+      Salami in ball tip pig eiusmod occaecat pork chop, consequat excepteur incididunt.
+      Ground round picanha ut boudin exercitation jerky meatball strip steak ipsum labore spare ribs turducken ribeye ut aliquip.
+      Id ipsum esse nisi ball tip chuck adipisicing sint culpa t-bone brisket bresaola mollit.
+      Enim eu kevin, tail in nisi nulla sirloin adipisicing veniam dolore.
+    </span>
+    </div>
+
+    <div id="addinformation">
+      <h4>Additional Information</h4>
+      <span>
+      Proident adipisicing laborum beef ribs tri-tip dolore meatball tempor rump flank prosciutto elit do.
+      Duis tenderloin culpa excepteur. Fugiat irure est cupim dolor, ut nulla id andouille chicken spare ribs eiusmod brisket biltong.
+      Eiusmod minim tail cupim labore ad filet mignon, andouille esse enim. Sausage salami dolor ex adipisicing consequat.
+      Ground round nostrud ut fatback voluptate consequat in minim drumstick culpa dolore.
+      Ea beef prosciutto in sirloin fatback enim velit consectetur in pork belly pancetta culpa shank.
+      <br>
+      Shank quis in duis, id officia nulla. Pancetta sunt filet mignon porchetta doner turkey occaecat. Meatball corned beef elit ut fugiat.
+      Hamburger biltong tail beef in cupim proident turducken picanha. Sausage chicken incididunt ad occaecat porchetta pancetta corned beef ham hock laborum nisi ullamco pork loin kielbasa aliqua.
+      <br>
+      In jerky minim chicken duis ground round nostrud pork belly occaecat pastrami commodo adipisicing tongue doner short loin.
+      Officia est do, filet mignon shank pork loin anim esse quis kevin corned beef enim. Magna sint sirloin ham hock cupidatat laboris.
+      Boudin spare ribs kevin meatloaf id short loin swine flank brisket aute.
+      Reprehenderit turkey qui, boudin swine voluptate ipsum fugiat.
+      <br>
+      Salami in ball tip pig eiusmod occaecat pork chop, consequat excepteur incididunt.
+      Ground round picanha ut boudin exercitation jerky meatball strip steak ipsum labore spare ribs turducken ribeye ut aliquip.
+      Id ipsum esse nisi ball tip chuck adipisicing sint culpa t-bone brisket bresaola mollit.
+      Enim eu kevin, tail in nisi nulla sirloin adipisicing veniam dolore.
+      </span>
+    </div>
+  </div>
+
 </div>
+
+
+
+
+
+
+
+
+
+
+
 
 </div>
 <div class="testimonials">
@@ -182,6 +309,10 @@
 <script src="js/gambuger.js"></script>
 <script type="text/javascript" src="js/slick-1.6.0/slick/slick.min.js"></script>
 <script type="text/javascript" src="js/slick.js"></script>
+<script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="js/fancybox.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+<script type="text/javascript" src="js/jquery-ui-custom.js"></script>
 
 </body>
 </html>
