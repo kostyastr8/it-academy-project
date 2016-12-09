@@ -17,16 +17,22 @@
 
 #desccription, #reviews, #addinformation{
   border: 1px solid #be926f;
-  padding: 0;
+  padding: 3px;
 }
 
 .ui-state-active a, .ui-state-active .ui-tabs-anchor {
-  margin-bottom: -3px ;
-  border-bottom: 3px solid #ffffff;
+  margin-bottom: -3px;
+  border-bottom: 1px solid #ffffff;
   border-top: 3px solid #be926f;
+}
 
+.ui-tabs .ui-tabs-nav  {
+  padding-bottom: 0;
+  margin-bottom: -1px;
 }
 
 .ui-widget-header {
   border: none;
 }
+
+
