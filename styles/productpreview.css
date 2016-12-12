@@ -1,13 +1,13 @@
 .productpreview {
   float: left;
   margin-top: 30px;
+  overflow: hidden;
 }
 
 .productslider {
   float: left;
   width: 140px;
-  height: 620px;
-  overflow: hidden;
+  height: 600px;
   margin-top: -15px;
   margin-bottom: -15px;
 }
@@ -15,6 +15,7 @@
 .productslide{
   margin: 15px 0;
 }
+
 .productslide a {
   display: block;
 }
@@ -27,15 +28,17 @@
 }
 
 
+
 .largepreview {
   float: right;
   width: 500px;
-  margin-left: 31px;
+  margin-left: 30px;
 }
+
 
 .largepreview a img {
   border: 3px solid #dbc5b4;
-  height: 600px;
+  height: 594px;
 }
 
 

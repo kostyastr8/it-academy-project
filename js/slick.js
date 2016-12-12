@@ -49,16 +49,6 @@ $(document).ready(function(){
   var $productpreview = $('.productslider');
 
 
- /* $(".sliderhead .prew").on('click', function(e) {
-    e.preventDefault();
-    $slider2.slick('slickPrev');
-  });
-
-  $(".sliderhead .next").on('click', function(e) {
-    e.preventDefault();
-    $slider2.slick('slickNext');
-  });*/
-
   $productpreview.slick({
     infinite: true,
     vertical:true,
