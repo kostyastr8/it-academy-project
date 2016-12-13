@@ -3,6 +3,10 @@
   margin-top: 60px;
 }
 
+.slider3 {
+  margin-top: 60px;
+}
+
 .sliderhead {
   display: flex;
   justify-content: space-between;
@@ -138,3 +142,5 @@
   }
 
 }
+
+

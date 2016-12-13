@@ -115,3 +115,110 @@
 .purple {
   background-color: #f71751;
 }
+.buyinstruments  {
+  margin: 30px 0;
+  display: inline-block;
+}
+
+.spinner {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+.spinner input  {
+  display: block;
+  padding: 0;
+  width: 58px;
+  height: 58px;
+  border: 1px solid #999999;
+  font-size: 26px;
+  color: #333333;
+
+  text-align: center;
+  float: left;
+}
+.spinner .plus{
+  float: right;
+  display: inline;
+  width: 30px;
+  height: 60px;
+  font-size: 20px;
+  color: #666666;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.plus button{
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #999999;
+  border-left:none;
+  font-size: 20px;
+  color: #666666;
+  font-weight: bold;
+  background: none #f7f7f7;
+  transition: color, background 0.3s;
+}
+.plus .dec {
+  border-top: none;
+}
+
+.plus button:hover {
+  color:#ffffff;
+  background:#be926f
+}
+
+.buyinstruments button {
+  margin-right: 13px;
+}
+
+.buybutton  {
+  display: inline-block;
+  background-color: #be926f;
+  width: 160px;
+  height: 60px;
+  text-decoration: none;
+  padding: 20px 0;
+  font-size: 19px;
+  color: #f7f7f7;
+  vertical-align: top;
+  transition:background-color, color 0.3s;
+  background-image: none;
+}
+.buybutton:hover{
+  color: #be926f;
+  background-color: #f7f7f7;
+}
+
+
+.to-favorite {
+  display: inline-block;
+  border: 1px solid #999999;
+  width: 58px;
+  height: 58px;
+  background:url("images/to-favorite.png") center center no-repeat;
+  transition:border,background-color 0.3s;
+}
+.to-compare:hover,
+.to-favorite:hover {
+  border: 1px solid #be926f;
+  background-color: #be926f;
+}
+
+.to-compare {
+  display: inline-block;
+  border: 1px solid #999999;
+  width: 58px;
+  height: 58px;
+  background:url("images/to-compare.png") center center no-repeat;
+  transition:border,background-color 0.3s;
+}
+
+.buyinstruments .sharesocial {
+  margin-top: 60px;
+  float: left;
+}
+
+

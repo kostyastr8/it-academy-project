@@ -74,3 +74,40 @@ $(document).ready(function(){
     ]
   });
 });
+
+var $slider3 = $('.featured-product-list-product-grid');
+$(".sliderhead .prew").on('click', function(e) {
+  e.preventDefault();
+  $slider3.slick('slickPrev');
+});
+
+$(".sliderhead .next").on('click', function(e) {
+  e.preventDefault();
+  $slider3.slick('slickNext');
+});
+
+
+$slider3.slick({
+  infinite: true,
+  slidesToShow: 4,
+  arrows:false,
+  autoplay:true,
+  responsive:[
+    {
+      breakpoint:1200,
+      settings:{
+        slidesToShow:3,
+        dots:true
+      }
+    },
+    {
+      breakpoint:960,
+      settings:{
+        slidesToShow:2,
+        dots:true
+      }
+    }
+  ]
+});
+
+
