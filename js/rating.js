@@ -1,6 +1,5 @@
 $(document).ready( function() {
-  $('.rating').on('click', function (e) {
-    (e).preventDefault();
-    $(this).removeClass("stars").addClass("starsactive");
+  $('.rating').on('click', function () {
+    $('.rating').add(".rating:checked]");
   });
 });
