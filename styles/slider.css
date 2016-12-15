@@ -16,35 +16,48 @@
   text-decoration: none;
 }
 
-.sliderhead .prew,
-.sliderhead .next {
-  position: relative;
+.sliderhead a .prew,
+.sliderhead a .next {
   display: flex;
   flex-direction: row;
   color: #999999;
   font-size: 13px;
   padding: 30px 0 25px;
+  line-height: 1.6;
+  transition: color 0.3s;
 }
 
 .prew .arrows {
+  width: 12px;
+  height: 23px;
+  background: url("images/_left.png")center center no-repeat;;
   margin-right: 19px;
+  transition:  background 0.3s;
 }
 
 .next .arrows {
+  width: 12px;
+  height: 23px;
+  background: url("images/_right.png") center center no-repeat;
   margin-left: 19px;
+  transition:  background 0.3s;
 }
 
-.sliderhead a .nextactive,
-.sliderhead a .prewactive {
-  display: none;
-  position: absolute;
-  top:0;
-  right:0;
-  bottom: 0;
-  left: 0;
-  margin-left: 19px;
-  margin-right: 19px;
+
+.sliderhead a .prew:hover .arrows{
+  background: url("images/_leftactive.png") center center no-repeat; ;
 }
+
+.sliderhead a .next:hover .arrows{
+  background: url("images/_rightactive.png") center center no-repeat; ;
+}
+
+.sliderhead a .prew:hover span,
+.sliderhead a .next:hover span{
+  color:  #be926f;
+}
+
+
 
 .sliderhead h2 {
   font-size: 18px;
@@ -53,7 +66,7 @@
   line-height: 1;
   letter-spacing: 3px;
   font-weight: bold;
-  padding: 30px 0 30px;
+  padding: 33px 0 30px;
   margin: 0;
 }
 

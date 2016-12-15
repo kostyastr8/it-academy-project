@@ -9,6 +9,7 @@
   <link rel="stylesheet" type="text/css" href="js/slick-1.6.0/slick/slick-theme.css"/>
   <link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css"/>
   <link rel="stylesheet" type="text/css" href="js/jquery-ui-1.12.1.custom/jquery-ui.css"/>
+  <link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css"/>
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="styles/blogstyle.css">
   <link rel="stylesheet" href="styles/prodcutgrid.css">
@@ -67,35 +68,35 @@
 
     <div class="productslider">
       <div class="productslide">
-        <a href="#" rel="fancybox">
+        <a  rel="group" href="products/chair (1).jpg">
           <img src="products/chair (1).jpg"  alt="chair">
         </a>
       </div>
       <div class="productslide">
-        <a href="#" rel="fancybox">
+        <a  rel="group" href="products/chair (2).jpg">
           <img src="products/chair (2).jpg" alt="chair">
         </a>
       </div>
       <div class="productslide">
-        <a href="#" rel="fancybox">
+        <a c rel="group" href="products/chair (3).jpg">
           <img src="products/chair (3).jpg"  alt="chair">
         </a>
       </div>
       <div class="productslide">
-        <a href="#" rel="fancybox">
+        <a  rel="group" href="products/chair (2).jpg">
           <img src="products/chair (2).jpg"   alt="chair">
         </a>
       </div>
       <div class="productslide">
-        <a href="#" rel="fancybox">
+        <a  rel="group" href="products/chair (3).jpg">
           <img src="products/chair (3).jpg"   alt="chair">
         </a>
       </div>
     </div>
 
     <div class="largepreview">
-      <a href="#">
-      <img src="products/chair (1).jpg"   alt="chair">
+      <a class="fancybox" rel="group" href="products/chair (1).jpg">
+      <img id="largepreview" src="products/chair (1).jpg"  alt="chair">
       </a>
     </div>
     <div class="clear"></div>
@@ -195,7 +196,7 @@
       <div class="buyinstruments">
         <div class="spinner">
             <label>
-            <input type="text" value="00">
+            <input class="spinner-val" type="text"  value="00">
               <span class="plus">
                 <button class="inc">+</button>
                 <button class="dec">-</button>
@@ -322,12 +323,11 @@
     <div class="sliderhead">
       <a href="#">
         <div class="prew">
-          <div class="arrows"><img src="styles/images/_left.png" alt="arrow"/></div>
+          <div class="arrows">
+          </div>
           <span>PREW</span>
         </div>
-        <div class="prewactive">
-          <div class="arrowsactive"><img src="styles/images/_leftactive.png" alt="arrow"/></div>
-        </div>
+
       </a>
 
       <h2>RELATED PRODUCTS</h2>
@@ -335,10 +335,8 @@
       <a href="#">
         <div class="next">
           <span>NEXT</span>
-          <div class="arrows"><img src="styles/images/_right.png" alt="arrow"/></div>
-        </div>
-        <div class="nextactive">
-          <div class="arrowsactive"><img src="styles/images/_rightactive.png" alt="arrow"/></div>
+          <div class="arrows">
+          </div>
         </div>
       </a>
     </div>
@@ -547,7 +545,10 @@
 <script type="text/javascript" src="js/fancybox.js"></script>
 <script type="text/javascript" src="js/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
 <script type="text/javascript" src="js/jquery-ui-custom.js"></script>
-
+<script type="text/javascript" src="js/jqureryrated/jquery.rater.js"></script>
+<script type="text/javascript" src="js/spinner.js"></script>
+<script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="js/fancybox.js"></script>
 </body>
 </html>
 
