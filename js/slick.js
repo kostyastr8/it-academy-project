@@ -92,6 +92,8 @@ $slider3.slick({
   slidesToShow: 4,
   arrows:false,
   autoplay:true,
+  dots:false,
+  adaptiveHeight:true,
   responsive:[
     {
       breakpoint:1200,

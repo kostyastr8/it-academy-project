@@ -1,14 +1,14 @@
 .page-content {
   background-color: #e7e7e7;
   font-family: 'Montserrat', sans-serif;
-  padding: 55px 10px;
+  padding: 41px 10px 42px;
 }
 
 
 .product-name {
   color: #232323;
   font-size: 30px;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 .blog {
@@ -22,12 +22,13 @@
 .mainhome {
   float: right;
   font-size: 14px;
-  margin-right: 30px;
 }
 
 .mainhome a {
   text-decoration: none;
   color: #999999;
+  line-height: 2;
+
 }
 
 .mainhome a:hover {

@@ -1,0 +1,10 @@
+.featured-product {
+  background-color: #ffffff;
+}
+.featured-product-list-product-grid {
+  height:336px;
+  display:flex;
+  list-style: none;
+  padding: 0;
+}
+

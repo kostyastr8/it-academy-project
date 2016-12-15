@@ -27,18 +27,20 @@
   border: 1px solid #dbc5b4;
 }
 
-
-
 .largepreview {
   float: right;
   width: 500px;
   margin-left: 30px;
 }
-
+.largepreview a {
+  width: 100%;
+}
 
 .largepreview a img {
   border: 3px solid #dbc5b4;
+  width: 100%;
   height: 594px;
+  object-fit: cover;
 }
 
 
