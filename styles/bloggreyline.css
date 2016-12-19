@@ -35,16 +35,27 @@
   color: #666666;
 }
 
-@media (max-width: 695px) {
+@media (max-width: 768px) {
+
+  .page-content {
+    margin: 20px auto 20px;
+  }
+
   .blog {
     float: none;
     margin: 20px auto;
     display: block;
     text-align: center;
   }
+  .page-content .product-name {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+
   .mainhome {
     float: none;
-    margin: 20px auto;
+    margin: 20px auto 0;
     display: block;
     text-align: center;
   }

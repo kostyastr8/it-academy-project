@@ -101,6 +101,7 @@ form  {
 .colorvariant {
   margin-top: 60px;
 }
+
 .colortext {
   float: left;
   height: 26px;
@@ -247,5 +248,39 @@ form  {
   margin-top: 60px;
   float: left;
 }
+
+@media (max-width: 768px) {
+  .aboutproduct {
+    float: none;
+    margin: auto 30px;
+    width: 100%;
+
+  }
+  .stockinfo,
+  .info,
+  .prices,
+  .colorvariant,
+  .aboutproduct h3 {
+    width: 90%;
+    float: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .buyinstruments{
+    display: block;
+    float: none;
+    text-align: justify;
+    margin: 30px auto;
+
+  }
+
+  .shareicons li{
+    text-align: justify;
+
+  }
+}
+
 
 

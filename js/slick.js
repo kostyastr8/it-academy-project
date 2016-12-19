@@ -58,9 +58,12 @@ $(document).ready(function(){
     autoplay:false,
     responsive:[
       {
-        breakpoint:1200,
+        breakpoint:769,
         settings:{
-          slidesToShow:3,
+          infinite: true,
+          vertical:false,
+          verticalSwiping: false,
+          slidesToShow: 2,
           dots:true
         }
       },
@@ -93,20 +96,12 @@ $slider3.slick({
   arrows:false,
   autoplay:true,
   dots:false,
-  adaptiveHeight:true,
   responsive:[
     {
-      breakpoint:1200,
-      settings:{
-        slidesToShow:3,
-        dots:true
-      }
-    },
-    {
-      breakpoint:960,
+      breakpoint:768,
       settings:{
         slidesToShow:2,
-        dots:true
+        dots:true,
       }
     }
   ]

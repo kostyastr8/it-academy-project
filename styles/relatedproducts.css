@@ -2,9 +2,20 @@
   background-color: #ffffff;
 }
 .featured-product-list-product-grid {
-  height:336px;
+  height:338px;
   display:flex;
   list-style: none;
   padding: 0;
+}
+
+.featured-product-list-product-grid {
+  border: 1px solid #e6e6e6;
+}
+
+.featured-product-list-product-grid .featured-product {
+  border-left: none;
+  border-right: 1px solid #e6e6e6;
+  border-bottom: none;
+  border-top: none;
 }
 

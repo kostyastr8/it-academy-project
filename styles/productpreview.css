@@ -49,3 +49,28 @@
   float: right;
   height: 600px;
 }
+
+@media (max-width: 768px) {
+  .productpreview {
+    float: none;
+  }
+
+  .largepreview a img {
+    display: none;
+  }
+
+  .productslider {
+    width: 100%;
+    height: auto;
+    float: none;
+    margin: auto;
+  }
+
+  .productslide a img {
+    width: 276px;
+    height: 356px;
+    padding: 0;
+    object-fit: none;
+    margin: auto;
+  }
+}
