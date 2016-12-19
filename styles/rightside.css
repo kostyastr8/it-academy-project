@@ -87,7 +87,13 @@ p {
 
 }
 
-@media (max-width: 960px) {
+@media (max-width: 769px) {
+  .rightside {
+    float: none;
+    width: 100%
+  }
+
+
   .poster {
     display: none;
   }
@@ -107,13 +113,16 @@ p {
   .tags, .shareicons{
     float: none;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 30px;
   }
+
   .sharesocial {
     float: none;
+    width: 100%;
+
 }
   .shareicons li:first-child {
-    display: block;
+    display: inline-block;
     margin-bottom: 10px;
     padding-top: 0;
   }
@@ -121,6 +130,11 @@ p {
   .posterafter {
     display: block;
     margin-bottom: 27px;
+  }
+  .tags {
+    vertical-align: middle;
+    padding-bottom: 20px;
+    padding-top: 0;
   }
 }
 

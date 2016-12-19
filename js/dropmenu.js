@@ -14,10 +14,10 @@
 
 $(function () {
 
-  var $headerLi = $('.header-nav li').has('.dropdown');
+  var $headerLi = $('li').has('.dropdown');
   $headerLi.find('a:first').on('click', function (e) {
     e.preventDefault();
-    $('.header-nav li').has('.dropdown').toggleClass('open');
+    $('li').has('.dropdown').toggleClass('open');
     $(this).siblings('.dropdown').stop().slideToggle();
   });
 });

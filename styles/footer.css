@@ -41,4 +41,14 @@ footer {
   background: url("images/facebook.png")center center no-repeat;
 }
 
+@media (max-width: 769px) {
+
+  footer .f  {
+    padding: 10px;
+  }
+  footer .f span {
+    margin-left: 10px;
+  }
+}
+
 

@@ -96,7 +96,7 @@
 }
 
 
-@media (max-width: 940px) {
+@media (max-width: 768px) {
   .head {
     flex-direction: column;
   }
@@ -115,12 +115,19 @@
     width: calc(100% - 44px);
   }
 
-  .header-nav ul{
-    display: none;
+  .header-nav ul {
+    margin: 20px auto;
+    width: 90%;
   }
 
   .header-nav ul li{
-    margin: 10px 0;
+    display: none;
+    text-align: center;
+    margin: 10px auto;
+  }
+
+  .header-nav ul li a{
+    padding: 10px;
   }
 
   .header-cart {
@@ -130,6 +137,7 @@
     display: flex;
     flex-direction: column;
   }
+
 }
 
 

@@ -50,27 +50,18 @@
   height: 600px;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 768px) {
   .productpreview {
-    width: 40%;
+    float: none;
+    width: 100%;
   }
 
-  .largepreview a img {
-    display: none;
-    margin-left: 0;
+  .largepreview {
+    margin-right: 20px;
   }
 
   .productslider {
-    width: 100%;
-    height: auto;
-    margin: auto;
-  }
-
-  .productslide a img {
-    width: 276px;
-    height: 356px;
-    padding: 0;
-    object-fit: none;
-    margin: 50px auto 0;
+    margin-left: 20px;
   }
 }
+

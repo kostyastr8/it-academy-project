@@ -144,7 +144,7 @@ form  {
   background-color: #f71751;
 }
 .buyinstruments  {
-  margin: 30px 0;
+  margin: 30px auto;
   display: inline-block;
 }
 
@@ -249,13 +249,33 @@ form  {
   float: left;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 769px) {
   .aboutproduct {
-    float: right;
-    width: 50%;
+    float: none;
+    width: 90%;
+    margin:30px 20px;
+    text-align: center;
+  }
+
+  .stockinfo div {
+    margin-top: 20px;
+  }
+
+  .colortext {
+    float: none;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .buyinstruments {
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
   }
 
 }
+
+
 
 
 

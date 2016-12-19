@@ -1,32 +1,22 @@
 .featured-product {
   background-color: #ffffff;
+  height: auto;
 }
 .featured-product-list-product-grid {
   height:338px;
   display:flex;
   list-style: none;
   padding: 0;
-}
-
-.featured-product-list-product-grid {
-  border: 1px solid #e6e6e6;
-}
-
-.featured-product-list-product-grid .featured-product {
-  border-left: none;
   border-right: 1px solid #e6e6e6;
-  border-bottom: none;
-  border-top: none;
 }
 
 
 @media (max-width: 768px) {
   .featured-product-list-product-grid {
-    height: 336px;
     padding: 0;
-  }
-  .featured-product .slick-slide {
-    margin-top: -30px;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
   }
 
 }

@@ -40,8 +40,12 @@
 
 
 
-@media (max-width: 695px) {
+@media (max-width: 768px) {
   .testimonials span {
-    text-align: justify;
+    text-align: center;
+    margin: auto 10px;
+  }
+  .testimonials br {
+    display: none;
   }
 }

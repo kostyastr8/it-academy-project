@@ -20,10 +20,11 @@ body {
   margin: auto;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 768px) {
 
   .container {
-    max-width: 740px;
+    max-width: 768px;
     margin: auto;
+
   }
 }
