@@ -19,3 +19,15 @@
   border-top: none;
 }
 
+
+@media (max-width: 768px) {
+  .featured-product-list-product-grid {
+    height: 336px;
+    padding: 0;
+  }
+  .featured-product .slick-slide {
+    margin-top: -30px;
+  }
+
+}
+
