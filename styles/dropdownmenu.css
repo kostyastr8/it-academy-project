@@ -34,9 +34,9 @@
   transition: .25s ease-in-out;
 }
 
- #nav-icon3 span:hover {
+ /*#nav-icon3 span:hover {
    color: #be926f;
- }
+ }*/
 
 #nav-icon3 span:nth-child(1) {
   top: 0;
@@ -77,62 +77,7 @@
 }
 
 
- .header-nav .burgermenu li {
-   display: none;
- }
 
-.header-nav li a:hover {
-  text-decoration: none;
-}
-
-.header-nav .burgermenu li .dropdown {
-  display: flex;
-  position: absolute;
-  background-color: #2b2b2b;
-  margin: 0;
-  padding: 0;
-  color: #ffffff;
-  transition: color 0.3s;
-  z-index: 10;
-}
-
-
- .burgermenu {
-   margin: auto;
-   text-align: center;
- }
-
- .burgermenu li {
-   display: none;
- }
- .burgermenu li a {
-   display: block;
-   width: auto;
-   height: auto;
- }
-
-
- .burgermenu li .dropdown {
-   display: none;
-   position: absolute;
-   padding: 0;
-   color: #ffffff;
-   transition: color 0.3s;
- }
- .burgermenu li .dropdown li{
-   margin-top: 10px;
- }
- .menu li{
-   display:flex;
-   margin-right: 30px;
- }
-
-
- @media (max-width: 415px){
-   .header-nav .burgermenu li {
-     display: flex;
-   }
- }
 
 
 

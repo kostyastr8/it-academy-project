@@ -72,6 +72,14 @@
     text-align: left;
     padding-bottom: 30px;
   }
+}
 
-  .s
+@media (max-width: 414px) {
+  .icon {
+    display: none;
+  }
+  .contact div {
+    margin:  auto;
+
+  }
 }

@@ -91,10 +91,18 @@ $slider3.slick({
   dots:false,
   responsive:[
     {
-      breakpoint:769,
-      settings:{
+      breakpoint: 769,
+      settings: {
         slidesToShow: 2,
-        dots:true
+        dots: true
+      }
+    },
+    {
+      breakpoint: 415,
+      settings: {
+        infinite: false,
+        slidesToShow: 1,
+        dots: false
       }
     }
   ]

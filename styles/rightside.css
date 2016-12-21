@@ -52,24 +52,30 @@ p {
   text-align: justify;
 }
 
-.tags {
-  float: left;
-  padding-top: 10px;
-  color: #333333;
-}
 
 .shareicons {
   list-style: none;
   padding: 0;
+  color: #333333;
+  font-size: 20px;
   margin: 0;
 }
+
+.shareicons  .tags {
+  float: left;
+  padding-top: 10px;
+}
+
 .sharesocial {
  float: right;
 }
 
 .shareicons li {
   display: inline;
-  margin: 0 5px 0;
+  margin: 0;
+}
+.shareicons li a img {
+  margin: 0 5px 0 8px;
 }
 
 .textfotter {

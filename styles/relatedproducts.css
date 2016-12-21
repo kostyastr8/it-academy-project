@@ -18,6 +18,13 @@
     margin: auto;
     overflow: hidden;
   }
-
+}
+  @media (max-width: 414px) {
+    .featured-product-list-product-grid {
+      padding: 0;
+      width: 100%;
+      margin: auto;
+      overflow: hidden;
+    }
 }
 

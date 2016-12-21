@@ -2,6 +2,11 @@ $( ".tabs" ).tabs({
   active: 1
 });
 
+
+$( ".tabs" ).tabs({
+  active: 1
+});
+
 $( function() {
   $( "#spinner" ).spinner({
     spin: function( event, ui ) {

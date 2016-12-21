@@ -51,4 +51,15 @@ footer {
   }
 }
 
+@media (max-width: 375px) {
+  .f {
+    text-align: left;
+    display: block;
+  }
+  .f div {
+    display: block;
+  }
+
+}
+
 

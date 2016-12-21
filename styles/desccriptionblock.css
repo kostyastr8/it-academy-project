@@ -1,18 +1,26 @@
 .tabs {
   margin-top: 60px;
 }
+
+
+
+.adaptive {
+  display: none;
+}
 .tabbs ul li{
   display: block;
   width: 1170px;
 }
+
 
 .ui-tabs {
   padding: 0;
 }
 
 .ui-tabs .ui-tabs-nav  {
-  padding: 0;
   background-color: #f7f7f7;
+  padding: 0;
+  margin-bottom: -1px;
 }
 
 #desccription, #reviews, #addinformation{
@@ -25,10 +33,8 @@
   border-bottom: 1px solid #ffffff;
   border-top: 3px solid #be926f;
 }
-
-.ui-tabs .ui-tabs-nav  {
-  padding-bottom: 0;
-  margin-bottom: -1px;
+a .ui-tabs-anchor {
+  padding: 25px 158px;
 }
 
 .ui-widget-header {
@@ -56,3 +62,23 @@
     text-align: center;
   }
 }
+
+@media (max-width: 414px) {
+  .tabs ul li{
+    display: none;
+  }
+
+  .tabs .adaptive li {
+    display: block;
+    width: 90%;
+  }
+
+  .tabs div {
+    width: 90%;
+  }
+  .adaptive {
+    display: block;
+  }
+
+  }
+
