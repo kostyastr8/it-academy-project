@@ -3,10 +3,11 @@
   height: auto;
 }
 .featured-product-list-product-grid {
-  height:338px;
+  height: 390px;
   display:flex;
   list-style: none;
   padding: 0;
+  margin: 0 auto 18px;
   border-right: 1px solid #e6e6e6;
 }
 
@@ -15,7 +16,7 @@
   .featured-product-list-product-grid {
     padding: 0;
     width: 100%;
-    margin: auto;
+
     overflow: hidden;
   }
 }

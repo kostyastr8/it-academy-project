@@ -32,9 +32,14 @@
   margin-bottom: -3px;
   border-bottom: 1px solid #ffffff;
   border-top: 3px solid #be926f;
+
 }
-a .ui-tabs-anchor {
-  padding: 25px 158px;
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor  {
+padding: 12px 18px;
+}
+
+.ui-helper-reset {
+  font-size: 20px;
 }
 
 .ui-widget-header {
@@ -44,6 +49,8 @@ a .ui-tabs-anchor {
 .info p {
   font-size: 16px;
   color: #666666;
+  line-height: 1.5;
+  margin: 30px 0 6px;
 }
 .info  h4 {
   font-size: 16px;

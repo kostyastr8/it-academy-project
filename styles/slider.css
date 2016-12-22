@@ -4,7 +4,7 @@
 }
 
 .slider3 {
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 .sliderhead {
@@ -60,14 +60,13 @@
 
 
 .sliderhead h2 {
-  font-size: 18px;
   color: #232323;
   text-align: center;
   line-height: 1;
-  letter-spacing: 3px;
-  font-weight: bold;
   padding: 33px 0 30px;
   margin: 0;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 .slidercontent {

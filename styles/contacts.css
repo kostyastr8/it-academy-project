@@ -1,14 +1,15 @@
 .contacts {
-  margin: 46px 75px  0 83px;
+  margin: 53px 75px  0 100px;
   font-size: 20px;
-  color: #232323;
+  color: #000000;
   text-align: center;
 }
 
-.tel, .loc, .email {
-  margin: 0 auto 10px;
-  width: 56px;
-  height: 56px;
+.contacts span {
+  display: block;
+  font-size: 20px;
+  color: #000000;
+  margin-top: 20px;
 }
 
 .contact {
@@ -16,8 +17,19 @@
   justify-content: space-between;
   margin-left: 80px;
   margin-right: 129px;
-  padding-bottom: 59px;
+  padding-bottom: 50px;
 }
+
+
+
+.tel, .loc, .email {
+  display: block;
+  margin: auto;
+  width: 56px;
+  height: 56px;
+}
+
+
 .tel {
   background: url("images/iPhone.png")center center no-repeat;
 
@@ -30,6 +42,9 @@
 
 .email {
   background: url("images/Mail.png")center center no-repeat;
+}
+.numb, .adress, .emailad {
+  margin-top: 20px;
 }
 
 .numb a{
