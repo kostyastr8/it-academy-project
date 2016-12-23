@@ -144,4 +144,19 @@ p {
   }
 }
 
+@media (max-width: 414px) {
+  .sharesocial {
+    margin-top: 20px;
+  }
+
+  .shareicons {
+    margin: 0;
+  }
+  .shareicons li{
+     margin: auto;
+   }
+  .shareicons li:first-child {
+   display: none;
+  }
+}
 

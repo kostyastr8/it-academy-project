@@ -60,10 +60,10 @@ $(document).ready(function(){
       {
         breakpoint:414,
         settings:{
-          infinite: true,
+          infinite: false,
           vertical:false,
           verticalSwiping: false,
-          slidesToShow: 2,
+          slidesToShow: 1,
           dots:true
         }
       }
@@ -91,7 +91,14 @@ $slider3.slick({
   dots:false,
   responsive:[
     {
-      breakpoint: 769,
+      breakpoint:1024,
+      settings: {
+        slidesToShow: 3,
+        dots: true
+      }
+    },
+    {
+      breakpoint:769,
       settings: {
         slidesToShow: 2,
         dots: true
@@ -101,8 +108,7 @@ $slider3.slick({
       breakpoint: 415,
       settings: {
         infinite: false,
-        slidesToShow: 1,
-        dots: false
+        slidesToShow: 1
       }
     }
   ]

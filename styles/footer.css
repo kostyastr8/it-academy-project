@@ -51,23 +51,23 @@
   background: url("images/facebook.png")center center no-repeat;
 }
 
+
+
 @media (max-width: 769px) {
-
-  footer .f  {
-    padding: 10px;
-  }
-  footer .f span {
-    margin-left: 10px;
-  }
-}
-
-@media (max-width: 375px) {
-  .f {
-    text-align: left;
+  .footer {
     display: block;
+  }
+  .f {
+    display: block;
+    text-align: center;
   }
   .f div {
     display: block;
+    margin: 5px auto;
+  }
+
+  .f div a {
+    display: inline;
   }
 
 }

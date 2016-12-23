@@ -206,7 +206,7 @@ form  {
 }
 
 .buyinstruments button {
-  margin-right: 12px;
+  /* margin-right: 12px; */
 }
 
 
@@ -308,13 +308,20 @@ form  {
     height: 60px;
     font-size: 12px;
   }
-
-  .to-compare,
-  .to-favorite {
+  .buyinstruments button {
     margin-right: 0;
   }
 
+
+  .to-compare,
+  .to-favorite {
+    display: block;
+    float: right;
+  }
+
 }
+
+
 
 
 

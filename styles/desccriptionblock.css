@@ -7,11 +7,9 @@
 .adaptive {
   display: none;
 }
-.tabbs ul li{
-  display: block;
-  width: 1170px;
+.adaptive li a {
+  margin-right: 0;
 }
-
 
 .ui-tabs {
   padding: 0;
@@ -75,17 +73,17 @@ padding: 12px 18px;
     display: none;
   }
 
-  .tabs .adaptive li {
-    display: block;
+  .tabs .adaptive {
     width: 90%;
+    padding: 0;
+    margin: auto;
   }
 
-  .tabs div {
-    width: 90%;
-  }
-  .adaptive {
-    display: block;
-  }
+}
 
+@media (max-width: 340px) {
+  .info  {
+    margin: 30px 0;
   }
+}
 

@@ -49,3 +49,16 @@
     display: none;
   }
 }
+
+@media (max-width: 340px) {
+  .testimonials span {
+    text-align: center;
+    font-size: 12px;
+    margin: auto 10px;
+  }
+  .testimonials br {
+    display: none;
+  }
+}
+
+

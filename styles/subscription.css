@@ -93,3 +93,14 @@ button {
   }
 }
 
+@media (max-width: 340px) {
+  .newsletter span {
+    text-align: center;
+    font-size: 12px;
+    margin: auto;
+  }
+  .newsletter br {
+    display: none;
+  }
+}
+

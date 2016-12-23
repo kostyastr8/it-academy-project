@@ -68,18 +68,28 @@
     padding-bottom: auto;
   }
 
+
   .serviceblock {
     text-align: left;
     padding-bottom: 30px;
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 790px) {
+
+
+  .serviceblock {
+    text-align: justify;
+  }
+
+  .contact div {
+    margin: auto;
+
+  }
+}
+
+@media (max-width: 690px) {
   .icon {
     display: none;
-  }
-  .contact div {
-    margin:  auto;
-
   }
 }

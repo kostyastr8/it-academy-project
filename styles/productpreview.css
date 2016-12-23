@@ -77,16 +77,28 @@
   .productpreview {
     float: none;
     width: 100%;
+    margin: auto;
+
   }
 
   .largepreview {
-    width: 90%;
+   display: none;
     float: none;
+  }
+  .productslider {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  .productslide a {
+    width: 100%;
+  }
+  .productslide a img {
+    width: 90%;
+    height: 300px;
     margin: auto;
   }
 
-  .productslider {
-    display: none;
-  }
 }
 
