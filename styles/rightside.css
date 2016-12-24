@@ -90,6 +90,14 @@ p {
     float: right;
     width: calc(100% - 325px);
   }
+  .sharesocial {
+    float: none;
+    width: 100%;
+
+  }
+  .shareicons  .tags {
+    float: none;
+  }
 
 }
 

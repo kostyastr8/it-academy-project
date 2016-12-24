@@ -256,14 +256,14 @@ form  {
   float: left;
 }
 
-@media (max-width: 769px) {
+
+@media (max-width: 1140px) {
   .aboutproduct {
     float: none;
     width: 90%;
-    margin:30px 20px;
+    margin: 30px 20px;
     text-align: center;
   }
-
   .stockinfo div {
     margin-top: 20px;
   }
@@ -276,18 +276,26 @@ form  {
 
   .buyinstruments {
     width: 100%;
-    margin: 30px auto;
+    margin: 40px auto;
+    text-align: center;
+  }
+  .info {
     text-align: center;
   }
 
+
 }
 
-@media (max-width: 414px) {
+
+
+
+@media (max-width: 454px) {
   .stockinfo div {
     display: block;
     margin: 20px 0 auto auto;
     padding: 0;
   }
+
   .stockinfo .code {
     margin-right: 0;
   }
@@ -308,6 +316,7 @@ form  {
     height: 60px;
     font-size: 12px;
   }
+
   .buyinstruments button {
     margin-right: 0;
   }

@@ -2,15 +2,6 @@
   margin-top: 60px;
 }
 
-
-
-.adaptive {
-  display: none;
-}
-.adaptive li a {
-  margin-right: 0;
-}
-
 .ui-tabs {
   padding: 0;
 }
@@ -21,7 +12,7 @@
   margin-bottom: -1px;
 }
 
-#desccription, #reviews, #addinformation{
+#desccription, #reviews, #addinformation {
   border: 1px solid #be926f;
   padding: 0 20px 0;
 }
@@ -54,11 +45,15 @@ padding: 12px 18px;
   font-size: 16px;
   color: #333333;
 }
+
+
 @media (max-width: 769px) {
   .info {
-    width: 90%;
+    width: 100%;
+    height: auto;
     margin: auto;
     text-align: center;
+    overflow: auto;
   }
 
   h4 {
@@ -68,15 +63,9 @@ padding: 12px 18px;
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 616px) {
   .tabs ul li{
     display: none;
-  }
-
-  .tabs .adaptive {
-    width: 90%;
-    padding: 0;
-    margin: auto;
   }
 
 }
