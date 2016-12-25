@@ -1,9 +1,9 @@
 .featured-product {
   background-color: #ffffff;
-  height: auto;
+  height: 375px;
 }
 .featured-product-list-product-grid {
-  height: 390px;
+  height: 378px;
   display:flex;
   list-style: none;
   padding: 0;
